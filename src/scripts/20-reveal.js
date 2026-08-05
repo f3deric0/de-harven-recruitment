@@ -23,7 +23,7 @@ DH.register('reveal', function initReveal() {
         }
       });
     },
-    { threshold: 0.14, rootMargin: '0px 0px -8% 0px' }
+    { threshold: 0.01, rootMargin: '0px 0px 15% 0px' }
   );
 
   items.forEach(function (el) { observer.observe(el); });
