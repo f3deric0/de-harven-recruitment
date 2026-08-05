@@ -2,7 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": true,
   "headers": [
     {
       "source": "/assets/(css|js|fonts|logo)/(.*)",
