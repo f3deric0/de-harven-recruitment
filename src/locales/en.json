@@ -421,6 +421,7 @@
         "mailtoFallback": "Open in your email client instead"
       },
       "directTitle": "Direct contact",
+      "phoneLabel": "Phone",
       "office": {
         "title": "Office",
         "body": "Via Veneto, Oliena (NU), Italy"

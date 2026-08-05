@@ -14,6 +14,8 @@
   color: var(--accent);
 }
 .eyebrow::before { content: ''; width: 26px; height: 1px; background: var(--accent); display: inline-block; }
+.section--light .eyebrow { color: var(--gold-on-light); }
+.section--light .eyebrow::before { background: var(--gold-on-light); }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -250,6 +252,7 @@
   color: var(--muted);
   margin-bottom: var(--sp-2);
 }
+.section--light .field label { color: var(--fg-on-light-muted); }
 .field input, .field textarea, .field select {
   width: 100%;
   padding-block: var(--sp-2);
@@ -289,6 +292,7 @@
 }
 .radio-pill input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .radio-pill:has(input:checked) { border-color: var(--accent); color: var(--accent); }
+.section--light .radio-pill:has(input:checked) { color: var(--gold-on-light); }
 .radio-pill:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .consent-row { display: flex; gap: 10px; align-items: flex-start; font-size: var(--fs-small); color: var(--fg-muted); }
@@ -324,3 +328,6 @@
   border: 1px solid var(--line-strong);
   color: var(--muted);
 }
+
+/* Section-level heading that needs h2 semantics but h3-sized type (legal pages) */
+.section-heading { font-size: var(--fs-h3); }

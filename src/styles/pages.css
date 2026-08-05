@@ -116,7 +116,7 @@
 .contact-side { display: flex; flex-direction: column; gap: var(--sp-6); }
 .contact-info-item { padding-block: var(--sp-4); border-top: 1px solid var(--line-on-light); }
 .contact-info-item:first-child { border-top: none; }
-.contact-info-item h4 {
+.contact-info-item h3 {
   font-size: var(--fs-eyebrow);
   letter-spacing: var(--ls-eyebrow);
   text-transform: uppercase;

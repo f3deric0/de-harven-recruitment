@@ -11,6 +11,7 @@
   --champagne:      #CFC6B8;
   --champagne-hi:   #E6DFD3;
   --gold:           #B7A46A;
+  --gold-on-light:  #6E6030; /* darker gold variant, WCAG AA on --ivory */
   --ivory:          #F1EFEA;
   --paper:          #FAF8F5;
   --muted:          #8A93A6;

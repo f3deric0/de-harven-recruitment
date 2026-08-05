@@ -1,5 +1,10 @@
 {
-  "meta": { "lang": "fr", "htmlLang": "fr", "dir": "ltr", "locale": "fr_FR" },
+  "meta": {
+    "lang": "fr",
+    "htmlLang": "fr",
+    "dir": "ltr",
+    "locale": "fr_FR"
+  },
   "site": {
     "name": "de Harven Recruitment",
     "shortName": "de Harven",
@@ -23,10 +28,16 @@
     "menu": "Menu",
     "close": "Fermer"
   },
-  "langSwitch": { "label": "Langue" },
+  "langSwitch": {
+    "label": "Langue"
+  },
   "footer": {
     "tagline": "Une expérience de recrutement raffinée à travers l'EMEA, guidée par le symbolisme durable de l'olivier.",
-    "columnsTitle": { "explore": "Explorer", "contact": "Contact", "office": "Bureau" },
+    "columnsTitle": {
+      "explore": "Explorer",
+      "contact": "Contact",
+      "office": "Bureau"
+    },
     "newsletter": {
       "title": "Restez informé",
       "body": "Quelques notes occasionnelles sur les tendances du talent en EMEA — sans spam, désabonnement à tout moment.",
@@ -35,7 +46,10 @@
       "submit": "S'abonner"
     },
     "rights": "Tous droits réservés.",
-    "legal": { "privacy": "Politique de confidentialité", "terms": "Conditions générales" },
+    "legal": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales"
+    },
     "madeWith": "Conçu et développé pour de Harven Recruitment."
   },
   "cta": {
@@ -60,14 +74,31 @@
         "secondaryCta": "Découvrir nos services",
         "scrollHint": "Faire défiler"
       },
-      "marquee": ["Excellence", "Résilience", "Longévité", "Tournés vers l'avenir"],
+      "marquee": [
+        "Excellence",
+        "Résilience",
+        "Longévité",
+        "Tournés vers l'avenir"
+      ],
       "introEyebrow": "Bienvenue chez de Harven Recruitment",
       "introTitle": "L'acquisition de talents, traitée comme un art",
       "introBody": "Notre cabinet de recrutement s'attache à offrir une expérience raffinée et haut de gamme à nos clients à travers l'EMEA. La créativité dans l'élaboration de solutions sur mesure, associée à un engagement fort envers la création de valeur, est au cœur de notre identité.",
       "stats": [
-        { "value": "11", "suffix": "+", "label": "Années en recrutement et chasse de têtes" },
-        { "value": "3", "suffix": "", "label": "Langues de travail — FR · EN · IT" },
-        { "value": "2024", "suffix": "", "label": "Fondation de de Harven Recruitment" }
+        {
+          "value": "11",
+          "suffix": "+",
+          "label": "Années en recrutement et chasse de têtes"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "Langues de travail — FR · EN · IT"
+        },
+        {
+          "value": "2024",
+          "suffix": "",
+          "label": "Fondation de de Harven Recruitment"
+        }
       ],
       "servicesEyebrow": "Ce que nous faisons",
       "servicesTitle": "Trois disciplines, une même exigence",
@@ -100,7 +131,6 @@
         "attribution": "Pierre de Harven, Fondateur"
       }
     },
-
     "services": {
       "seo": {
         "title": "Services — de Harven Recruitment",
@@ -159,7 +189,6 @@
         "primary": "Voir notre méthodologie"
       }
     },
-
     "methodology": {
       "seo": {
         "title": "Méthodologie — de Harven Recruitment",
@@ -200,10 +229,22 @@
       ],
       "principlesTitle": "Ce qui reste constant à chaque étape",
       "principles": [
-        { "title": "Communication transparente", "body": "Clients et candidats sont tenus informés à chaque étape — aucune zone d'ombre." },
-        { "title": "Évaluation standardisée", "body": "Les mêmes critères rigoureux sont appliqués de manière cohérente, quel que soit le poste ou le niveau de séniorité." },
-        { "title": "Alignement culturel", "body": "Un alignement complet avec la culture et les objectifs stratégiques de l'organisation, au-delà du simple CV." },
-        { "title": "Adéquation à long terme", "body": "Nous privilégions des solutions de talent fiables et durables — pas le placement le plus rapide possible." }
+        {
+          "title": "Communication transparente",
+          "body": "Clients et candidats sont tenus informés à chaque étape — aucune zone d'ombre."
+        },
+        {
+          "title": "Évaluation standardisée",
+          "body": "Les mêmes critères rigoureux sont appliqués de manière cohérente, quel que soit le poste ou le niveau de séniorité."
+        },
+        {
+          "title": "Alignement culturel",
+          "body": "Un alignement complet avec la culture et les objectifs stratégiques de l'organisation, au-delà du simple CV."
+        },
+        {
+          "title": "Adéquation à long terme",
+          "body": "Nous privilégions des solutions de talent fiables et durables — pas le placement le plus rapide possible."
+        }
       ],
       "cta": {
         "eyebrow": "Voir en pratique",
@@ -212,7 +253,6 @@
         "primary": "Voir secteurs & profils"
       }
     },
-
     "industries": {
       "seo": {
         "title": "Secteurs & Profils — de Harven Recruitment",
@@ -229,14 +269,31 @@
       },
       "profilesTitle": "Types de profils que nous plaçons",
       "profiles": [
-        { "title": "Opérationnel", "body": "Des postes de première ligne et opérationnels qui assurent le bon fonctionnement quotidien de l'activité." },
-        { "title": "Technique", "body": "Des profils spécialisés et techniques dans les fonctions d'ingénierie, scientifiques et de production." },
-        { "title": "Managérial", "body": "Des chefs d'équipe et postes de middle management, à la jonction entre stratégie et exécution." },
-        { "title": "Exécutif", "body": "Des mandats seniors et exécutifs, menés avec la discrétion que le niveau de séniorité requiert." }
+        {
+          "title": "Opérationnel",
+          "body": "Des postes de première ligne et opérationnels qui assurent le bon fonctionnement quotidien de l'activité."
+        },
+        {
+          "title": "Technique",
+          "body": "Des profils spécialisés et techniques dans les fonctions d'ingénierie, scientifiques et de production."
+        },
+        {
+          "title": "Managérial",
+          "body": "Des chefs d'équipe et postes de middle management, à la jonction entre stratégie et exécution."
+        },
+        {
+          "title": "Exécutif",
+          "body": "Des mandats seniors et exécutifs, menés avec la discrétion que le niveau de séniorité requiert."
+        }
       ],
       "sectorsTitle": "Expérience sectorielle",
       "sectorsBody": "Une expérience concrète couvrant la biotechnologie et les sciences de la vie (dont un mandat Fortune 500 pour Danaher Corporation), ainsi que des organisations du secteur privé, public et institutionnel, sur le marché belge et plus largement européen.",
-      "sectors": ["Biotechnologie & Sciences de la vie", "Secteur privé", "Organisations publiques & institutionnelles", "Industriel & Technique"],
+      "sectors": [
+        "Biotechnologie & Sciences de la vie",
+        "Secteur privé",
+        "Organisations publiques & institutionnelles",
+        "Industriel & Technique"
+      ],
       "cta": {
         "eyebrow": "À propos du fondateur",
         "title": "Rencontrez la personne derrière chaque mandat",
@@ -244,7 +301,6 @@
         "primary": "À propos de Pierre de Harven"
       }
     },
-
     "about": {
       "seo": {
         "title": "À propos — Pierre de Harven | de Harven Recruitment",
@@ -263,27 +319,72 @@
       "valuesTitle": "L'olivier — et ce qu'il représente",
       "valuesBody": "Guidées par le symbolisme durable de l'olivier, nos valeurs incarnent l'excellence, la résilience, la longévité et une vision tournée vers l'avenir. La créativité dans l'élaboration de solutions sur mesure, associée à un engagement fort envers la création de valeur, est au cœur de notre identité.",
       "values": [
-        { "title": "Excellence", "body": "Une exigence raffinée et haut de gamme appliquée à chaque mandat, quelle que soit son ampleur." },
-        { "title": "Résilience", "body": "Un recrutement bien mené demande de la patience — nous ne prenons pas de raccourcis sous la pression." },
-        { "title": "Longévité", "body": "Nous privilégions des placements qui durent, pas simplement pourvoir un poste rapidement." },
-        { "title": "Tournés vers l'avenir", "body": "Anticiper l'évolution des besoins en talents de nos clients, pas seulement répondre à leur situation actuelle." }
+        {
+          "title": "Excellence",
+          "body": "Une exigence raffinée et haut de gamme appliquée à chaque mandat, quelle que soit son ampleur."
+        },
+        {
+          "title": "Résilience",
+          "body": "Un recrutement bien mené demande de la patience — nous ne prenons pas de raccourcis sous la pression."
+        },
+        {
+          "title": "Longévité",
+          "body": "Nous privilégions des placements qui durent, pas simplement pourvoir un poste rapidement."
+        },
+        {
+          "title": "Tournés vers l'avenir",
+          "body": "Anticiper l'évolution des besoins en talents de nos clients, pas seulement répondre à leur situation actuelle."
+        }
       ],
       "timelineTitle": "Parcours professionnel",
       "timeline": [
-        { "period": "2024 — Présent", "role": "Fondateur & Partenaire en recrutement", "org": "de Harven Recruitment" },
-        { "period": "2022 — 2024", "role": "Senior Recruiter (pour le compte de Cytiva / Danaher)", "org": "Kelly Outsourcing and Consulting Group" },
-        { "period": "2021 — 2022", "role": "Senior Human Resources Recruiter", "org": "Hudson Benelux" },
-        { "period": "2020 — 2021", "role": "Consultant RH — Chasse de têtes", "org": "Indépendant" },
-        { "period": "2018 — 2020", "role": "Executive Recruiter / Researcher", "org": "Mercuri Urval" }
+        {
+          "period": "2024 — Présent",
+          "role": "Fondateur & Partenaire en recrutement",
+          "org": "de Harven Recruitment"
+        },
+        {
+          "period": "2022 — 2024",
+          "role": "Senior Recruiter (pour le compte de Cytiva / Danaher)",
+          "org": "Kelly Outsourcing and Consulting Group"
+        },
+        {
+          "period": "2021 — 2022",
+          "role": "Senior Human Resources Recruiter",
+          "org": "Hudson Benelux"
+        },
+        {
+          "period": "2020 — 2021",
+          "role": "Consultant RH — Chasse de têtes",
+          "org": "Indépendant"
+        },
+        {
+          "period": "2018 — 2020",
+          "role": "Executive Recruiter / Researcher",
+          "org": "Mercuri Urval"
+        }
       ],
       "credentialsTitle": "Formation",
       "credentials": [
-        { "title": "Master en Relations internationales et études de sécurité nationale", "org": "Université libre de Bruxelles" },
-        { "title": "Licence en Droit", "org": "Université libre de Bruxelles" },
-        { "title": "Sciences politiques (Erasmus)", "org": "Alma Mater Studiorum — Università di Bologna" }
+        {
+          "title": "Master en Relations internationales et études de sécurité nationale",
+          "org": "Université libre de Bruxelles"
+        },
+        {
+          "title": "Licence en Droit",
+          "org": "Université libre de Bruxelles"
+        },
+        {
+          "title": "Sciences politiques (Erasmus)",
+          "org": "Alma Mater Studiorum — Università di Bologna"
+        }
       ],
       "languagesTitle": "Langues",
-      "languages": ["Français", "Anglais", "Italien"],
+      "languages": [
+        "Français",
+        "Anglais",
+        "Italien"
+      ],
       "cta": {
         "eyebrow": "Parlons-en",
         "title": "Vous construisez une équipe, ou votre prochaine étape ?",
@@ -291,7 +392,6 @@
         "primary": "Nous contacter"
       }
     },
-
     "contact": {
       "seo": {
         "title": "Contact — de Harven Recruitment",
@@ -321,10 +421,16 @@
         "mailtoFallback": "Ouvrir dans votre messagerie à la place"
       },
       "directTitle": "Contact direct",
-      "office": { "title": "Bureau", "body": "Via Veneto, Oliena (NU), Italie" },
-      "reach": { "title": "Zone d'action", "body": "Actif à travers l'Europe, avec un focus sur la Belgique, l'Italie et l'ensemble de la région EMEA." }
+      "phoneLabel": "Téléphone",
+      "office": {
+        "title": "Bureau",
+        "body": "Via Veneto, Oliena (NU), Italie"
+      },
+      "reach": {
+        "title": "Zone d'action",
+        "body": "Actif à travers l'Europe, avec un focus sur la Belgique, l'Italie et l'ensemble de la région EMEA."
+      }
     },
-
     "privacy": {
       "seo": {
         "title": "Politique de confidentialité — de Harven Recruitment",
@@ -337,16 +443,36 @@
       },
       "intro": "Cette politique explique quelles données personnelles de Harven Recruitment collecte via ce site, pourquoi, et comment vous pouvez exercer vos droits. Elle s'applique au formulaire de contact et à l'inscription à la newsletter sur ce site.",
       "sections": [
-        { "title": "Qui est responsable de vos données", "body": "Le responsable du traitement est Pierre de Harven, exerçant sous le nom de Harven Recruitment, basé à Oliena (NU), Italie. Pour toute question sur cette politique ou vos données, contactez deharvenpierre@gmail.com." },
-        { "title": "Ce que nous collectons", "body": "Via le formulaire de contact : prénom, nom, adresse e-mail, numéro de téléphone facultatif, votre statut d'entreprise ou de candidat, et le message que vous rédigez. Via l'inscription à la newsletter : votre adresse e-mail et votre consentement à être contacté. Nous n'utilisons aucun cookie d'analyse ou publicitaire sur ce site, et aucune donnée n'est collectée au-delà de ce que vous soumettez activement." },
-        { "title": "Pourquoi nous les traitons", "body": "Uniquement pour répondre à votre demande, évaluer une correspondance de recrutement potentielle, ou vous envoyer les mises à jour de la newsletter que vous avez demandées. Votre soumission est transmise par e-mail à Pierre de Harven ; elle n'est ni vendue, ni louée, ni partagée avec des tiers à des fins marketing." },
-        { "title": "Base légale", "body": "Le traitement repose sur votre consentement, donné lors de la soumission du formulaire ou en cochant la case de la newsletter, ainsi que sur notre intérêt légitime à répondre aux demandes professionnelles et candidatures." },
-        { "title": "Durée de conservation", "body": "Les données personnelles soumises via ce site sont conservées uniquement le temps nécessaire pour traiter votre demande ou, pour les candidats, pour vous considérer pour des opportunités pertinentes — et sont supprimées sur demande à tout moment." },
-        { "title": "Vos droits", "body": "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données, ainsi que du droit de retirer votre consentement ou de vous opposer au traitement à tout moment. Pour exercer l'un de ces droits, écrivez à deharvenpierre@gmail.com." },
-        { "title": "Une note sur ce document", "body": "Il s'agit d'une description factuelle, en langage clair, de la manière dont ce site spécifique traite les données — ce n'est pas un substitut à un avis juridique indépendant, et ce document sera révisé périodiquement à mesure que l'activité évolue." }
+        {
+          "title": "Qui est responsable de vos données",
+          "body": "Le responsable du traitement est Pierre de Harven, exerçant sous le nom de Harven Recruitment, basé à Oliena (NU), Italie. Pour toute question sur cette politique ou vos données, contactez deharvenpierre@gmail.com."
+        },
+        {
+          "title": "Ce que nous collectons",
+          "body": "Via le formulaire de contact : prénom, nom, adresse e-mail, numéro de téléphone facultatif, votre statut d'entreprise ou de candidat, et le message que vous rédigez. Via l'inscription à la newsletter : votre adresse e-mail et votre consentement à être contacté. Nous n'utilisons aucun cookie d'analyse ou publicitaire sur ce site, et aucune donnée n'est collectée au-delà de ce que vous soumettez activement."
+        },
+        {
+          "title": "Pourquoi nous les traitons",
+          "body": "Uniquement pour répondre à votre demande, évaluer une correspondance de recrutement potentielle, ou vous envoyer les mises à jour de la newsletter que vous avez demandées. Votre soumission est transmise par e-mail à Pierre de Harven ; elle n'est ni vendue, ni louée, ni partagée avec des tiers à des fins marketing."
+        },
+        {
+          "title": "Base légale",
+          "body": "Le traitement repose sur votre consentement, donné lors de la soumission du formulaire ou en cochant la case de la newsletter, ainsi que sur notre intérêt légitime à répondre aux demandes professionnelles et candidatures."
+        },
+        {
+          "title": "Durée de conservation",
+          "body": "Les données personnelles soumises via ce site sont conservées uniquement le temps nécessaire pour traiter votre demande ou, pour les candidats, pour vous considérer pour des opportunités pertinentes — et sont supprimées sur demande à tout moment."
+        },
+        {
+          "title": "Vos droits",
+          "body": "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données, ainsi que du droit de retirer votre consentement ou de vous opposer au traitement à tout moment. Pour exercer l'un de ces droits, écrivez à deharvenpierre@gmail.com."
+        },
+        {
+          "title": "Une note sur ce document",
+          "body": "Il s'agit d'une description factuelle, en langage clair, de la manière dont ce site spécifique traite les données — ce n'est pas un substitut à un avis juridique indépendant, et ce document sera révisé périodiquement à mesure que l'activité évolue."
+        }
       ]
     },
-
     "terms": {
       "seo": {
         "title": "Conditions générales — de Harven Recruitment",
@@ -359,12 +485,30 @@
       },
       "intro": "Ces conditions régissent votre utilisation de ce site. de Harven Recruitment propose des services de recrutement et de chasse de têtes ; ce site ne traite aucun paiement en ligne ni transaction e-commerce.",
       "sections": [
-        { "title": "Objet de ce site", "body": "Ce site présente les services, la méthodologie et les coordonnées de de Harven Recruitment pour les entreprises et les candidats. La soumission du formulaire de contact ne crée aucune obligation contractuelle de part et d'autre — elle initie simplement un échange." },
-        { "title": "Aucune garantie de résultat", "body": "Le recrutement est un service basé sur la recherche. Soumettre une candidature ou un besoin de recrutement ne garantit ni un placement, ni un entretien, ni aucun résultat spécifique." },
-        { "title": "Contenu & propriété intellectuelle", "body": "Le texte, les images et le design de ce site appartiennent à de Harven Recruitment, sauf mention contraire, et ne peuvent être reproduits sans autorisation." },
-        { "title": "Disponibilité", "body": "Nous nous efforçons de maintenir ce site disponible et à jour, mais ne pouvons garantir un accès ininterrompu ni l'exactitude permanente de toutes les informations." },
-        { "title": "Droit applicable", "body": "Ces conditions sont régies par le droit italien. Il s'agit d'un avis général en langage clair, et non d'un substitut à un avis juridique indépendant." },
-        { "title": "Contact", "body": "Toute question relative à ces conditions peut être adressée à deharvenpierre@gmail.com." }
+        {
+          "title": "Objet de ce site",
+          "body": "Ce site présente les services, la méthodologie et les coordonnées de de Harven Recruitment pour les entreprises et les candidats. La soumission du formulaire de contact ne crée aucune obligation contractuelle de part et d'autre — elle initie simplement un échange."
+        },
+        {
+          "title": "Aucune garantie de résultat",
+          "body": "Le recrutement est un service basé sur la recherche. Soumettre une candidature ou un besoin de recrutement ne garantit ni un placement, ni un entretien, ni aucun résultat spécifique."
+        },
+        {
+          "title": "Contenu & propriété intellectuelle",
+          "body": "Le texte, les images et le design de ce site appartiennent à de Harven Recruitment, sauf mention contraire, et ne peuvent être reproduits sans autorisation."
+        },
+        {
+          "title": "Disponibilité",
+          "body": "Nous nous efforçons de maintenir ce site disponible et à jour, mais ne pouvons garantir un accès ininterrompu ni l'exactitude permanente de toutes les informations."
+        },
+        {
+          "title": "Droit applicable",
+          "body": "Ces conditions sont régies par le droit italien. Il s'agit d'un avis général en langage clair, et non d'un substitut à un avis juridique indépendant."
+        },
+        {
+          "title": "Contact",
+          "body": "Toute question relative à ces conditions peut être adressée à deharvenpierre@gmail.com."
+        }
       ]
     }
   }
