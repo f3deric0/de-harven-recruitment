@@ -75,6 +75,8 @@
   transition: border-color var(--dur-fast) var(--ease-out), gap var(--dur-fast) var(--ease-out);
 }
 .text-link:hover { border-color: var(--accent); gap: 12px; }
+.section--light .text-link { color: var(--gold-on-light); }
+.section--light .text-link:hover { border-color: var(--gold-on-light); }
 .text-link svg { width: 13px; height: 13px; }
 
 /* ---------- Marquee ---------- */
@@ -210,6 +212,7 @@
 .section:not(.section--light) .pillar { border-color: var(--line); }
 .pillar:hover { transform: translateY(-4px); border-color: var(--accent); }
 .pillar .index { font-family: var(--font-display); color: var(--accent); }
+.section--light .pillar .index { color: var(--gold-on-light); }
 .pillar h3 { font-size: 1.15rem; font-family: var(--font-display); font-weight: 500; margin-block: var(--sp-2); }
 .pillar p { font-size: var(--fs-small); }
 .section--light .pillar p { color: var(--fg-on-light-muted); }
@@ -296,6 +299,7 @@
 .radio-pill:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .consent-row { display: flex; gap: 10px; align-items: flex-start; font-size: var(--fs-small); color: var(--fg-muted); }
+.section--light .consent-row { color: var(--fg-on-light-muted); }
 .consent-row input[type="checkbox"] { width: 16px; height: 16px; margin-top: 2px; accent-color: var(--champagne); flex-shrink: 0; }
 
 .form-status {
