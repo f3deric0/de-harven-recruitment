@@ -1,0 +1,48 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body">{{page.hero.body}}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <h2 data-reveal>{{page.timelineTitle}}</h2>
+    <div class="timeline" data-reveal-group>
+      <div class="timeline-progress" aria-hidden="true"></div>
+      {{#each page.timeline}}
+      <div class="timeline-item" data-reveal>
+        <span class="index">{{this.index}}</span>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container">
+    <p class="eyebrow" data-reveal>{{page.principlesTitle}}</p>
+    <div class="pillar-grid" style="margin-top:var(--sp-5)" data-reveal-group>
+      {{#each page.principles}}
+      <div class="pillar" data-reveal>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--raised">
+  <div class="container cta-band" data-reveal>
+    <p class="eyebrow">{{page.cta.eyebrow}}</p>
+    <h2>{{page.cta.title}}</h2>
+    <p>{{page.cta.body}}</p>
+    <div class="hero-actions">
+      <a class="btn" href="{{urls.industries}}"><span>{{page.cta.primary}}</span></a>
+    </div>
+  </div>
+</section>

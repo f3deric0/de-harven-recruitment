@@ -1,0 +1,54 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body">{{page.hero.body}}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container split" data-reveal>
+    <h2>{{page.intro.title}}</h2>
+    <p class="hero-body">{{page.intro.body}}</p>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container">
+    <p class="eyebrow" data-reveal>{{page.pillarsTitle}}</p>
+    <div class="pillar-grid" style="margin-top:var(--sp-5)" data-reveal-group>
+      {{#each page.pillars}}
+      <div class="pillar" data-reveal>
+        <span class="index">{{this.index}}</span>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 data-reveal>{{page.servicesGridTitle}}</h2>
+    <div class="grid" style="margin-top:var(--sp-6)" data-reveal-group>
+      {{#each page.servicesGrid}}
+      <div class="pillar" style="grid-column: span 6" data-reveal>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--raised">
+  <div class="container cta-band" data-reveal>
+    <p class="eyebrow">{{page.cta.eyebrow}}</p>
+    <h2>{{page.cta.title}}</h2>
+    <p>{{page.cta.body}}</p>
+    <div class="hero-actions">
+      <a class="btn" href="{{urls.methodology}}"><span>{{page.cta.primary}}</span></a>
+    </div>
+  </div>
+</section>

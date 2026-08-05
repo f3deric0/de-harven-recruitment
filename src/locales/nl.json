@@ -1,0 +1,371 @@
+{
+  "meta": { "lang": "nl", "htmlLang": "nl", "dir": "ltr", "locale": "nl_BE" },
+  "site": {
+    "name": "de Harven Recruitment",
+    "shortName": "de Harven",
+    "tagline": "Uw partner in talentwerving",
+    "domain": "de-harven-recruitment.com",
+    "phone": "+32 (0) 476 43 83 19",
+    "phoneHref": "+32476438319",
+    "email": "deharvenpierre@gmail.com",
+    "location": "Via Veneto, Oliena (NU), Italië",
+    "linkedin": "https://www.linkedin.com/in/pierre-de-harven",
+    "founded": "2024"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "methodology": "Methodologie",
+    "industries": "Sectoren",
+    "about": "Over ons",
+    "contact": "Contact",
+    "cta": "Start een gesprek",
+    "menu": "Menu",
+    "close": "Sluiten"
+  },
+  "langSwitch": { "label": "Taal" },
+  "footer": {
+    "tagline": "Een verfijnde, premium wervingservaring doorheen EMEA, geïnspireerd door de blijvende symboliek van de olijfboom.",
+    "columnsTitle": { "explore": "Ontdek", "contact": "Contact", "office": "Kantoor" },
+    "newsletter": {
+      "title": "Blijf op de hoogte",
+      "body": "Af en toe een update over talenttrends in EMEA — geen spam, u kunt zich altijd uitschrijven.",
+      "placeholder": "Uw e-mailadres",
+      "consent": "Ja, schrijf mij in voor de nieuwsbrief.",
+      "submit": "Inschrijven"
+    },
+    "rights": "Alle rechten voorbehouden.",
+    "legal": { "privacy": "Privacybeleid", "terms": "Algemene voorwaarden" },
+    "madeWith": "Ontworpen en gebouwd voor de Harven Recruitment."
+  },
+  "cta": {
+    "eyebrow": "Laten we praten",
+    "title": "Klaar om het talent te vinden dat uw bedrijf vooruit helpt?",
+    "body": "Of u nu een team opbouwt of uw volgende carrièrestap overweegt — het gesprek begint hier.",
+    "primary": "Start een gesprek",
+    "secondary": "Bekijk onze diensten"
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "de Harven Recruitment — Uw partner in talentwerving",
+        "description": "Premium werving en executive search doorheen EMEA. de Harven Recruitment werkt samen met bedrijven en kandidaten om sterke, duurzame teams op te bouwen."
+      },
+      "hero": {
+        "eyebrow": "de Harven Recruitment",
+        "titleLine1": "Uw partner in",
+        "titleLine2": "talentwerving",
+        "body": "Een verfijnde, premium wervingservaring doorheen EMEA — geïnspireerd door de blijvende symboliek van de olijfboom: excellentie, veerkracht, duurzaamheid en een toekomstgerichte mentaliteit.",
+        "primaryCta": "Start een gesprek",
+        "secondaryCta": "Ontdek onze diensten",
+        "scrollHint": "Scroll"
+      },
+      "marquee": ["Excellentie", "Veerkracht", "Duurzaamheid", "Toekomstgericht"],
+      "introEyebrow": "Welkom bij de Harven Recruitment",
+      "introTitle": "Talentwerving, benaderd als vakmanschap",
+      "introBody": "Ons wervingsbureau streeft ernaar een verfijnde, premium wervingservaring te bieden aan onze klanten doorheen EMEA. Creativiteit in het vormgeven van oplossingen op maat, samen met een sterke focus op waardecreatie, vormt de kern van wie wij zijn.",
+      "stats": [
+        { "value": "11", "suffix": "+", "label": "Jaar ervaring in werving & executive search" },
+        { "value": "3", "suffix": "", "label": "Werktalen — FR · EN · IT" },
+        { "value": "2024", "suffix": "", "label": "Oprichting van de Harven Recruitment" }
+      ],
+      "servicesEyebrow": "Wat wij doen",
+      "servicesTitle": "Drie disciplines, één zorgvuldigheidsnorm",
+      "services": [
+        {
+          "index": "01",
+          "title": "Werving & Selectie",
+          "excerpt": "Wij werken nauw samen met klanten om hun specifieke behoeften te begrijpen en de professionals te identificeren die het best aansluiten bij hun cultuur, doelstellingen en langetermijnvisie.",
+          "href": "services"
+        },
+        {
+          "index": "02",
+          "title": "Onze methodologie",
+          "excerpt": "Een streng, gestructureerd proces — van een grondige behoefteanalyse tot gerichte sourcingstrategieën, competentiegerichte assessments en zorgvuldige verificatie.",
+          "href": "methodology"
+        },
+        {
+          "index": "03",
+          "title": "Sectoren & profielen",
+          "excerpt": "Een werkelijk transversale expertise over operationele, technische, leidinggevende en directieprofielen — in plaats van één specifieke sector.",
+          "href": "industries"
+        }
+      ],
+      "aboutEyebrow": "Geleid door Pierre de Harven",
+      "aboutTitle": "Onafhankelijk. Selectief. Persoonlijk betrokken.",
+      "aboutBody": "Pierre leidt momenteel het bureau en houdt toezicht op strategische wervingsopdrachten in de private sector, evenals voor publieke en institutionele organisaties. Na verscheidene jaren bij gerenommeerde executive search-bureaus — waaronder Mercuri Urval en Hudson — en het beheer van belangrijke wervingsmandaten voor Danaher Corporation (Fortune 500) in de biotechnologie- en life sciences-sector, koos hij ervoor zijn eigen praktijk op te richten om te voldoen aan de groeiende vraag naar gespecialiseerde, hoogwaardige wervingsexpertise.",
+      "aboutCta": "Lees het volledige verhaal",
+      "quote": {
+        "text": "Geïnspireerd door de blijvende symboliek van de olijfboom, omarmen onze waarden excellentie, veerkracht, duurzaamheid en een toekomstgerichte mentaliteit.",
+        "attribution": "Pierre de Harven, Oprichter"
+      }
+    },
+
+    "services": {
+      "seo": {
+        "title": "Diensten — de Harven Recruitment",
+        "description": "Werving & selectie, wervingsoplossingen op maat, en een vlotte, hoogwaardige ervaring van eerste contact tot volledige onboarding."
+      },
+      "hero": {
+        "eyebrow": "Onze diensten",
+        "title": "Werving & Selectie",
+        "body": "Onze kernactiviteit is werving en selectie: wij werken nauw samen met klanten om hun specifieke behoeften te begrijpen en de professionals te identificeren die het best aansluiten bij hun cultuur, doelstellingen en langetermijnvisie."
+      },
+      "intro": {
+        "title": "Wervingsoplossingen op maat, van eerste contact tot onboarding",
+        "body": "Wij bieden wervingsoplossingen op maat, stroomlijnen elke stap van het aanwervingsproces en garanderen een vlotte, efficiënte en hoogwaardige ervaring, van eerste contact tot volledige onboarding."
+      },
+      "pillarsTitle": "Hoe wij met u samenwerken",
+      "pillars": [
+        {
+          "index": "01",
+          "title": "Begrijpen",
+          "body": "Wij beginnen met luisteren — naar uw cultuur, uw doelstellingen en de langetermijnvisie achter elke openstaande functie, niet enkel de functieomschrijving."
+        },
+        {
+          "index": "02",
+          "title": "Identificeren",
+          "body": "Wij identificeren professionals die écht passen — technisch, cultureel en strategisch — in plaats van de eerst beschikbare match."
+        },
+        {
+          "index": "03",
+          "title": "Leveren",
+          "body": "Wij stroomlijnen elke stap van het aanwervingsproces van begin tot eind, met transparante communicatie van eerste contact tot volledige onboarding."
+        }
+      ],
+      "servicesGridTitle": "Wervingsdiensten",
+      "servicesGrid": [
+        {
+          "title": "Vaste werving",
+          "body": "Volledige search en selectie voor vaste aanwervingen, van functiedefinitie tot aanbod en ondersteuning bij onboarding."
+        },
+        {
+          "title": "Executive search",
+          "body": "Discrete, gerichte search voor senior-, management- en directiefuncties, waar uitzonderlijke profielen vaak schaars zijn."
+        },
+        {
+          "title": "Gespecialiseerde & technische profielen",
+          "body": "Sourcing voor technische en gespecialiseerde functies binnen operationele, engineering- en wetenschappelijke domeinen."
+        },
+        {
+          "title": "Grensoverschrijdende & EMEA-mandaten",
+          "body": "Ondersteuning bij werving op meerdere Europese markten, gebaseerd op praktijkervaring in België, Italië en daarbuiten."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Volgende stap",
+        "title": "Ontdek hoe het proces in de praktijk werkt",
+        "body": "Onze methodologiepagina overloopt elke fase, van behoefteanalyse tot achtergrondverificatie.",
+        "primary": "Bekijk onze methodologie"
+      }
+    },
+
+    "methodology": {
+      "seo": {
+        "title": "Methodologie — de Harven Recruitment",
+        "description": "Een streng, gestructureerd wervingsproces: grondige behoefteanalyse, gerichte sourcing, competentiegerichte assessments en zorgvuldige achtergrondverificatie."
+      },
+      "hero": {
+        "eyebrow": "Onze methodologie",
+        "title": "Een streng, gestructureerd proces",
+        "body": "Onze wervingsmethodologie berust op een streng en gestructureerd proces dat begint met een grondige analyse van de behoeften van de klant, gevolgd door gerichte sourcingstrategieën, nauwkeurige competentiegerichte assessments en zorgvuldige achtergrondverificatie."
+      },
+      "timelineTitle": "Vijf fasen, één norm",
+      "timeline": [
+        {
+          "index": "01",
+          "title": "Behoefteanalyse",
+          "body": "Een grondige analyse van de behoeften van de klant — de functie, het team, de cultuur en de strategische doelstellingen achter de aanwerving."
+        },
+        {
+          "index": "02",
+          "title": "Sourcingstrategie",
+          "body": "Gerichte sourcingstrategieën, opgebouwd rond het specifieke profiel, de markt en de sector, in plaats van een generieke kandidatenpool."
+        },
+        {
+          "index": "03",
+          "title": "Competentiegerichte beoordeling",
+          "body": "Nauwkeurige, gestandaardiseerde beoordelingscriteria, consistent toegepast bij elke overwogen kandidaat."
+        },
+        {
+          "index": "04",
+          "title": "Achtergrondverificatie",
+          "body": "Zorgvuldige verificatie om betrouwbaarheid en aansluiting te garanderen voordat een profiel aan de klant wordt voorgesteld."
+        },
+        {
+          "index": "05",
+          "title": "Afstemming bij onboarding",
+          "body": "Transparante communicatie tot en met de volledige onboarding, met volledige aansluiting bij de cultuur en doelstellingen van de organisatie."
+        }
+      ],
+      "principlesTitle": "Wat in elke fase gelijk blijft",
+      "principles": [
+        { "title": "Transparante communicatie", "body": "Klanten en kandidaten worden in elke fase op de hoogte gehouden — geen black boxes." },
+        { "title": "Gestandaardiseerde beoordeling", "body": "Dezelfde strenge criteria worden consistent toegepast, ongeacht functie of senioriteit." },
+        { "title": "Culturele aansluiting", "body": "Volledige aansluiting bij de cultuur en strategische doelstellingen van de organisatie, niet enkel het cv." },
+        { "title": "Langetermijnfit", "body": "Wij optimaliseren voor betrouwbare, duurzame wervingsoplossingen — niet de snelst mogelijke plaatsing." }
+      ],
+      "cta": {
+        "eyebrow": "Zie het in de praktijk",
+        "title": "Ontdek de sectoren en profielen die wij bestrijken",
+        "body": "Transversale expertise over operationele, technische, leidinggevende en directiefuncties.",
+        "primary": "Bekijk sectoren & profielen"
+      }
+    },
+
+    "industries": {
+      "seo": {
+        "title": "Sectoren & Profielen — de Harven Recruitment",
+        "description": "Sectoroverschrijdende expertise in operationele, technische, leidinggevende en directie-talentwerving."
+      },
+      "hero": {
+        "eyebrow": "Sectoren & Profielen",
+        "title": "Transversale expertise, geen enkele sector",
+        "body": "Wij zijn een wervingsbureau dat zich onderscheidt door uitgebreide sectoroverschrijdende ervaring, met een werkelijk transversale expertise in plaats van beperking tot één gespecialiseerde sector."
+      },
+      "intro": {
+        "title": "Eén brede, volwassen kijk — elk type profiel",
+        "body": "Dankzij dit brede en volwassen perspectief kunnen wij toptalent identificeren en aantrekken voor alle profieltypes — operationeel, technisch, leidinggevend en directie — met verfijnde, op maat gemaakte oplossingen die naadloos aansluiten bij de strategische ambities van elke klant."
+      },
+      "profilesTitle": "Profieltypes die wij plaatsen",
+      "profiles": [
+        { "title": "Operationeel", "body": "Frontlinie- en operationele functies die de dagelijkse werking betrouwbaar laten draaien." },
+        { "title": "Technisch", "body": "Gespecialiseerde en technische profielen binnen engineering, wetenschappelijke en productiefuncties." },
+        { "title": "Leidinggevend", "body": "Teamleads en middle management, op het kruispunt van strategie en uitvoering." },
+        { "title": "Directie", "body": "Senior- en directiemandaten, benaderd met de discretie die de senioriteit vereist." }
+      ],
+      "sectorsTitle": "Sectorervaring",
+      "sectorsBody": "Praktijkervaring in biotechnologie en life sciences (waaronder een Fortune 500-mandaat voor Danaher Corporation), naast private, publieke en institutionele organisaties op de Belgische en bredere Europese markt.",
+      "sectors": ["Biotechnologie & Life Sciences", "Private sector", "Publieke & institutionele organisaties", "Industrieel & Technisch"],
+      "cta": {
+        "eyebrow": "Over de oprichter",
+        "title": "Maak kennis met de persoon achter elk mandaat",
+        "body": "Een wervingspraktijk gebouwd op directe, praktijkervaring — geen callcenter.",
+        "primary": "Over Pierre de Harven"
+      }
+    },
+
+    "about": {
+      "seo": {
+        "title": "Over ons — Pierre de Harven | de Harven Recruitment",
+        "description": "Pierre de Harven richtte de Harven Recruitment op in 2024, na meer dan tien jaar ervaring in werving en executive search in België en Europa."
+      },
+      "hero": {
+        "eyebrow": "Over ons",
+        "title": "Pierre de Harven",
+        "subtitle": "Oprichter & Recruitment Partner"
+      },
+      "bio": [
+        "Pierre leidt momenteel het bureau en houdt toezicht op strategische wervingsopdrachten in de private sector, evenals voor publieke en institutionele organisaties. Zijn werk richt zich op het identificeren en aantrekken van hoogwaardig talent in sectoren waar uitzonderlijke profielen vaak schaars zijn.",
+        "Na verscheidene jaren bij gerenommeerde executive search-bureaus — waaronder Mercuri Urval en Hudson — en het beheer van belangrijke wervingsmandaten voor Danaher Corporation (Fortune 500) in de biotechnologie- en life sciences-sector, koos hij ervoor zijn eigen praktijk op te richten om te voldoen aan de groeiende vraag naar gespecialiseerde, hoogwaardige wervingsexpertise.",
+        "Hij behaalde diploma's in Rechten en Internationale Betrekkingen aan de Université libre de Bruxelles. Hij spreekt vloeiend Frans, Engels en Italiaans, en is actief doorheen Europa met bijzonder uitgebreide ervaring op de Belgische markt."
+      ],
+      "valuesTitle": "De olijfboom — en waar hij voor staat",
+      "valuesBody": "Geïnspireerd door de blijvende symboliek van de olijfboom, omarmen onze waarden excellentie, veerkracht, duurzaamheid en een toekomstgerichte mentaliteit. Creativiteit in het vormgeven van oplossingen op maat, samen met een sterke focus op waardecreatie, vormt de kern van wie wij zijn.",
+      "values": [
+        { "title": "Excellentie", "body": "Een verfijnde, premium norm die bij elk mandaat wordt toegepast, ongeacht de omvang." },
+        { "title": "Veerkracht", "body": "Werving die goed gebeurt vraagt geduld — wij nemen geen kortere weg onder druk." },
+        { "title": "Duurzaamheid", "body": "Wij optimaliseren voor plaatsingen die standhouden, niet enkel voor het snel invullen van een functie." },
+        { "title": "Toekomstgericht", "body": "Anticiperen op de evoluerende talentbehoeften van klanten, niet enkel inspelen op de huidige situatie." }
+      ],
+      "timelineTitle": "Loopbaan",
+      "timeline": [
+        { "period": "2024 — Heden", "role": "Oprichter & Recruitment Partner", "org": "de Harven Recruitment" },
+        { "period": "2022 — 2024", "role": "Senior Recruiter (namens Cytiva / Danaher)", "org": "Kelly Outsourcing and Consulting Group" },
+        { "period": "2021 — 2022", "role": "Senior Human Resources Recruiter", "org": "Hudson Benelux" },
+        { "period": "2020 — 2021", "role": "HR-consultant — Executive Search", "org": "Zelfstandig" },
+        { "period": "2018 — 2020", "role": "Executive Recruiter / Researcher", "org": "Mercuri Urval" }
+      ],
+      "credentialsTitle": "Opleiding",
+      "credentials": [
+        { "title": "Master in Internationale Betrekkingen & Nationale Veiligheidsstudies", "org": "Université libre de Bruxelles" },
+        { "title": "Bachelor in de Rechten", "org": "Université libre de Bruxelles" },
+        { "title": "Politieke Wetenschappen (Erasmus)", "org": "Alma Mater Studiorum — Università di Bologna" }
+      ],
+      "languagesTitle": "Talen",
+      "languages": ["Frans", "Engels", "Italiaans"],
+      "cta": {
+        "eyebrow": "Laten we praten",
+        "title": "Bouwt u een team, of overweegt u uw volgende stap?",
+        "body": "Neem rechtstreeks contact op — elk gesprek wordt persoonlijk door Pierre behandeld.",
+        "primary": "Neem contact op"
+      }
+    },
+
+    "contact": {
+      "seo": {
+        "title": "Contact — de Harven Recruitment",
+        "description": "Bent u een bedrijf of een kandidaat? Neem contact op met de Harven Recruitment en wij nemen contact met u op."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Laten we een gesprek starten",
+        "body": "Bent u een bedrijf of een kandidaat? Laat ons weten hoe wij u kunnen helpen en wij nemen contact met u op."
+      },
+      "form": {
+        "typeLabel": "Ik ben…",
+        "typeCompany": "Een bedrijf",
+        "typeCandidate": "Een kandidaat",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mailadres",
+        "phone": "Telefoon (optioneel)",
+        "message": "Hoe kunnen wij u helpen?",
+        "consent": "Ik ga ermee akkoord dat de Harven Recruitment mij mag contacteren over deze aanvraag.",
+        "submit": "Bericht versturen",
+        "sending": "Bezig met versturen…",
+        "successTitle": "Bericht verzonden",
+        "successBody": "Bedankt — Pierre neemt spoedig contact met u op.",
+        "errorTitle": "Er is iets misgegaan",
+        "errorBody": "Probeer het opnieuw, of neem rechtstreeks contact op via e-mail.",
+        "mailtoFallback": "Open in uw e-mailprogramma in plaats daarvan"
+      },
+      "directTitle": "Rechtstreeks contact",
+      "office": { "title": "Kantoor", "body": "Via Veneto, Oliena (NU), Italië" },
+      "reach": { "title": "Actieradius", "body": "Actief doorheen Europa, met focus op België, Italië en de bredere EMEA-regio." }
+    },
+
+    "privacy": {
+      "seo": {
+        "title": "Privacybeleid — de Harven Recruitment",
+        "description": "Hoe de Harven Recruitment persoonsgegevens verzamelt, gebruikt en beschermt die via deze website worden verstrekt."
+      },
+      "hero": {
+        "eyebrow": "Juridisch",
+        "title": "Privacybeleid",
+        "updated": "Laatst bijgewerkt: augustus 2026"
+      },
+      "intro": "Dit beleid legt uit welke persoonsgegevens de Harven Recruitment via deze website verzamelt, waarom, en hoe u uw rechten hierover kunt uitoefenen. Het is van toepassing op het contactformulier en de nieuwsbriefinschrijving op deze site.",
+      "sections": [
+        { "title": "Wie is verantwoordelijk voor uw gegevens", "body": "De verwerkingsverantwoordelijke is Pierre de Harven, actief onder de naam de Harven Recruitment, gevestigd in Oliena (NU), Italië. Voor vragen over dit beleid of uw gegevens, contacteer deharvenpierre@gmail.com." },
+        { "title": "Wat wij verzamelen", "body": "Via het contactformulier: voornaam, achternaam, e-mailadres, optioneel telefoonnummer, of u een bedrijf of kandidaat bent, en het bericht dat u schrijft. Via de nieuwsbriefinschrijving: uw e-mailadres en uw toestemming om gecontacteerd te worden. Wij gebruiken geen analyse- of advertentiecookies op deze site, en er worden geen gegevens verzameld buiten wat u actief invult." },
+        { "title": "Waarom wij ze verwerken", "body": "Uitsluitend om te reageren op uw aanvraag, een mogelijke wervingsmatch te evalueren, of u de nieuwsbriefupdates te sturen waarvoor u zich hebt ingeschreven. Uw aanvraag wordt per e-mail bezorgd aan Pierre de Harven; ze wordt niet verkocht, verhuurd of gedeeld met derden voor marketingdoeleinden." },
+        { "title": "Rechtsgrond", "body": "De verwerking is gebaseerd op uw toestemming, gegeven bij het indienen van het formulier of het aanvinken van het nieuwsbriefvakje, en op ons gerechtvaardigd belang om te reageren op zakelijke en kandidaataanvragen." },
+        { "title": "Hoe lang wij ze bewaren", "body": "Persoonsgegevens die via deze site worden ingediend, worden enkel bewaard zolang nodig om uw aanvraag te behandelen of, voor kandidaten, om u in overweging te nemen voor relevante opportuniteiten — en worden op elk moment op verzoek verwijderd." },
+        { "title": "Uw rechten", "body": "Onder de AVG/GDPR hebt u het recht op inzage, correctie, verwijdering en overdraagbaarheid van uw gegevens, en het recht om uw toestemming in te trekken of bezwaar te maken tegen verwerking op elk moment. Om een van deze rechten uit te oefenen, e-mail naar deharvenpierre@gmail.com." },
+        { "title": "Een opmerking over dit document", "body": "Dit is een feitelijke, helder geformuleerde beschrijving van hoe deze specifieke website met gegevens omgaat — het is geen vervanging voor onafhankelijk juridisch advies, en zal periodiek herzien worden naarmate de activiteit evolueert." }
+      ]
+    },
+
+    "terms": {
+      "seo": {
+        "title": "Algemene voorwaarden — de Harven Recruitment",
+        "description": "De voorwaarden die het gebruik van de website van de Harven Recruitment regelen."
+      },
+      "hero": {
+        "eyebrow": "Juridisch",
+        "title": "Algemene voorwaarden",
+        "updated": "Laatst bijgewerkt: augustus 2026"
+      },
+      "intro": "Deze voorwaarden regelen uw gebruik van deze website. de Harven Recruitment biedt werving- en executive search-diensten aan; deze site verwerkt geen enkele online betaling of e-commercetransactie.",
+      "sections": [
+        { "title": "Doel van deze site", "body": "Deze website presenteert de diensten, methodologie en contactgegevens van de Harven Recruitment voor bedrijven en kandidaten. Het indienen van het contactformulier creëert geen enkele contractuele verplichting voor beide partijen — het start eenvoudigweg een gesprek." },
+        { "title": "Geen garantie op resultaat", "body": "Werving is een op zoektocht gebaseerde dienst. Het indienen van een kandidatuur of een wervingsbehoefte garandeert geen plaatsing, gesprek of enig specifiek resultaat." },
+        { "title": "Inhoud & intellectuele eigendom", "body": "De tekst, beelden en het ontwerp van deze site zijn eigendom van de Harven Recruitment, tenzij anders vermeld, en mogen niet worden gereproduceerd zonder toestemming." },
+        { "title": "Beschikbaarheid", "body": "Wij streven ernaar deze site beschikbaar en accuraat te houden, maar kunnen geen ononderbroken toegang of foutloze informatie te allen tijde garanderen." },
+        { "title": "Toepasselijk recht", "body": "Deze voorwaarden worden beheerst door Italiaans recht. Dit is een algemene, helder geformuleerde mededeling en geen vervanging voor onafhankelijk juridisch advies." },
+        { "title": "Contact", "body": "Vragen over deze voorwaarden kunnen worden gestuurd naar deharvenpierre@gmail.com." }
+      ]
+    }
+  }
+}

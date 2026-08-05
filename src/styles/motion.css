@@ -1,0 +1,100 @@
+/* ============================================================
+   Motion — reveal states, preloader, cursor, page-transition curtain
+   All of it degrades to fully visible / fully static content
+   under prefers-reduced-motion or if JavaScript never runs.
+   ============================================================ */
+
+/* ---------- Scroll reveal ---------- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity var(--dur-slow) var(--ease-out),
+              transform var(--dur-slow) var(--ease-out);
+}
+[data-reveal].is-visible { opacity: 1; transform: translateY(0); }
+[data-reveal-group] > * { transition-delay: calc(var(--reveal-i, 0) * 90ms); }
+
+/* No-JS / reduced-motion fallback: content is simply visible, never stuck hidden */
+.no-js [data-reveal],
+.reduced-motion [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+/* ---------- Preloader ---------- */
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--dur-slow) var(--ease-out), visibility var(--dur-slow);
+}
+.preloader-mark { width: 64px; height: 70px; color: var(--champagne); }
+.preloader-mark path { stroke-dasharray: 340; stroke-dashoffset: 340; animation: draw 1.6s var(--ease-out) forwards; }
+.preloader-mark .leaves ellipse { opacity: 0; animation: fadeIn 0.5s var(--ease-out) forwards; animation-delay: 1.1s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes fadeIn { to { opacity: 1; } }
+
+.preloader.is-hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+.no-js .preloader, .reduced-motion .preloader { display: none; }
+
+/* ---------- Page transition curtain ---------- */
+.curtain {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-curtain);
+  background: var(--navy);
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+.curtain.is-active { transition: transform var(--dur-mid) var(--ease-in-out); transform: translateY(0); }
+.curtain.is-leaving { transition: transform var(--dur-mid) var(--ease-in-out); transform: translateY(100%); }
+.no-js .curtain, .reduced-motion .curtain { display: none; }
+
+/* ---------- Custom cursor (pointer devices only) ---------- */
+.cursor-dot, .cursor-ring {
+  position: fixed;
+  top: 0; left: 0;
+  pointer-events: none;
+  z-index: var(--z-cursor);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+.cursor-dot { width: 6px; height: 6px; background: var(--champagne); }
+.cursor-ring { width: 34px; height: 34px; border: 1px solid var(--champagne); transition: width var(--dur-fast) var(--ease-out), height var(--dur-fast) var(--ease-out), opacity var(--dur-fast); }
+.cursor-ring.is-active { width: 52px; height: 52px; opacity: 0.6; }
+
+@media (hover: none), (pointer: coarse) {
+  .cursor-dot, .cursor-ring { display: none; }
+}
+.reduced-motion .cursor-dot,
+.reduced-motion .cursor-ring { display: none; }
+
+/* ---------- Hero word-mask reveal ---------- */
+.mask-line { overflow: hidden; display: block; }
+.mask-line > span {
+  display: inline-block;
+  transform: translateY(110%);
+  transition: transform 900ms var(--ease-out);
+}
+.hero.is-ready .mask-line > span { transform: translateY(0); }
+.no-js .mask-line > span,
+.reduced-motion .mask-line > span { transform: none; }
+
+/* Staggered delays for up to 6 mask lines */
+.mask-line:nth-of-type(1) > span { transition-delay: 120ms; }
+.mask-line:nth-of-type(2) > span { transition-delay: 240ms; }
+.mask-line:nth-of-type(3) > span { transition-delay: 360ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .mask-line > span { transform: none !important; }
+  .preloader { display: none; }
+  .curtain { display: none; }
+  * { scroll-behavior: auto !important; }
+}

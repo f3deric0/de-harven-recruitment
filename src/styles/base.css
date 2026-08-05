@@ -1,0 +1,113 @@
+/* ============================================================
+   Base — resets, elements, typography primitives
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body.theme-light {
+  background: var(--bg-light);
+  color: var(--fg-on-light);
+}
+
+img, picture, svg, video { display: block; max-width: 100%; }
+img { height: auto; }
+
+a { color: inherit; text-decoration: none; }
+
+ul, ol { margin: 0; padding: 0; list-style: none; }
+p { margin: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: var(--lh-tight);
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); font-family: var(--font-body); font-weight: 500; letter-spacing: 0; }
+
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  margin: 0;
+}
+button { cursor: pointer; }
+
+::selection {
+  background: var(--champagne);
+  color: var(--navy);
+}
+
+/* Custom scrollbar — WebKit + Firefox, purely decorative, never blocks input */
+html { scrollbar-width: thin; scrollbar-color: var(--champagne) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 10px;
+  border: 2px solid var(--navy);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--champagne); }
+
+/* --- Accessibility primitives --- */
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  top: -100%;
+  left: var(--sp-4);
+  z-index: 1000;
+  background: var(--champagne);
+  color: var(--navy);
+  padding: var(--sp-2) var(--sp-4);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: 500;
+  transition: top var(--dur-fast) var(--ease-out);
+}
+.skip-link:focus {
+  top: var(--sp-3);
+}
+
+:focus-visible {
+  outline: 2px solid var(--champagne);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+body.theme-light :focus-visible { outline-color: var(--navy); }
+
+/* Smooth scroll only when motion is welcome */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+html:focus-within { scroll-padding-top: 6rem; }

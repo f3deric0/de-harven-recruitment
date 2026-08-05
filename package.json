@@ -1,0 +1,16 @@
+{
+  "name": "de-harven-recruitment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "de Harven Recruitment — premium trilingual static site",
+  "type": "module",
+  "scripts": {
+    "fetch-assets": "node scripts/fetch-assets.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && npx serve dist -l 3000",
+    "serve": "npx serve dist -l 3000"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

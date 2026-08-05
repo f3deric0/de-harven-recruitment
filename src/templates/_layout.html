@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="{{meta.htmlLang}}" dir="{{meta.dir}}" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{page.seo.title}}</title>
+<meta name="description" content="{{page.seo.description}}">
+<link rel="canonical" href="{{canonicalUrl}}">
+{{#each alternates}}<link rel="alternate" hreflang="{{this.hreflang}}" href="{{this.url}}">
+{{/each}}
+<meta name="theme-color" content="#142238">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.name}}">
+<meta property="og:title" content="{{page.seo.title}}">
+<meta property="og:description" content="{{page.seo.description}}">
+<meta property="og:url" content="{{canonicalUrl}}">
+<meta property="og:locale" content="{{meta.locale}}">
+<meta property="og:image" content="{{siteUrl}}/assets/img/pierre-portrait.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{page.seo.title}}">
+<meta name="twitter:description" content="{{page.seo.description}}">
+
+<link rel="preload" href="/assets/fonts/cormorant-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/jost-300.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{cssHref}}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EmploymentAgency",
+  "name": "{{site.name}}",
+  "url": "{{siteUrl}}/{{meta.lang}}/",
+  "telephone": "{{site.phone}}",
+  "email": "{{site.email}}",
+  "address": { "@type": "PostalAddress", "addressLocality": "Oliena", "addressRegion": "Nuoro", "addressCountry": "IT" },
+  "areaServed": "EMEA",
+  "founder": { "@type": "Person", "name": "Pierre de Harven" }
+}
+</script>
+
+<script>
+document.documentElement.classList.remove('no-js');
+document.documentElement.classList.add('js');
+if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('reduced-motion');
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="preloader" aria-hidden="true">
+  <svg class="preloader-mark" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M100 210 L100 130 C100 122 96 116 92 110" />
+      <path d="M100 150 C88 140 76 136 62 138" />
+      <path d="M100 130 C112 118 126 112 140 112" />
+      <path d="M96 112 C86 98 78 88 64 82" />
+      <path d="M98 100 C104 86 114 76 128 70" />
+      <path d="M100 84 C96 70 96 58 100 46" />
+    </g>
+    <g class="leaves" fill="currentColor">
+      <ellipse cx="52" cy="130" rx="16" ry="6" transform="rotate(-18 52 130)" />
+      <ellipse cx="40" cy="140" rx="15" ry="5.5" transform="rotate(-6 40 140)" />
+      <ellipse cx="30" cy="152" rx="15" ry="5.5" transform="rotate(8 30 152)" />
+      <ellipse cx="150" cy="106" rx="16" ry="6" transform="rotate(18 150 106)" />
+      <ellipse cx="163" cy="118" rx="15" ry="5.5" transform="rotate(4 163 118)" />
+      <ellipse cx="172" cy="132" rx="15" ry="5.5" transform="rotate(-10 172 132)" />
+      <ellipse cx="52" cy="78" rx="15" ry="5.5" transform="rotate(-30 52 78)" />
+      <ellipse cx="40" cy="90" rx="14" ry="5" transform="rotate(-14 40 90)" />
+      <ellipse cx="138" cy="62" rx="15" ry="5.5" transform="rotate(28 138 62)" />
+      <ellipse cx="150" cy="76" rx="14" ry="5" transform="rotate(12 150 76)" />
+      <ellipse cx="100" cy="40" rx="14" ry="5.5" transform="rotate(90 100 40)" />
+      <ellipse cx="84" cy="46" rx="13" ry="5" transform="rotate(56 84 46)" />
+      <ellipse cx="116" cy="46" rx="13" ry="5" transform="rotate(-56 116 46)" />
+    </g>
+  </svg>
+</div>
+<div class="curtain" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="{{urls.home}}" aria-label="{{site.name}} — home">
+      <svg class="brand-mark" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+          <path d="M100 210 L100 130 C100 122 96 116 92 110" />
+          <path d="M100 150 C88 140 76 136 62 138" />
+          <path d="M100 130 C112 118 126 112 140 112" />
+          <path d="M96 112 C86 98 78 88 64 82" />
+          <path d="M98 100 C104 86 114 76 128 70" />
+          <path d="M100 84 C96 70 96 58 100 46" />
+        </g>
+        <g fill="currentColor">
+          <ellipse cx="52" cy="130" rx="16" ry="6" transform="rotate(-18 52 130)" />
+          <ellipse cx="150" cy="106" rx="16" ry="6" transform="rotate(18 150 106)" />
+          <ellipse cx="52" cy="78" rx="15" ry="5.5" transform="rotate(-30 52 78)" />
+          <ellipse cx="138" cy="62" rx="15" ry="5.5" transform="rotate(28 138 62)" />
+          <ellipse cx="100" cy="40" rx="14" ry="5.5" transform="rotate(90 100 40)" />
+        </g>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">de Harven</span>
+        <span class="brand-sub">Recruitment</span>
+      </span>
+    </a>
+
+    <nav class="nav-primary" aria-label="Primary">
+      <ul class="nav-links">
+        {{#each navItems}}<li><a href="{{this.href}}"{{#if this.active}} aria-current="page"{{/if}}>{{this.label}}</a></li>
+        {{/each}}
+      </ul>
+      <div class="header-actions">
+        <div class="lang-switch" aria-label="{{langSwitch.label}}">
+          {{#each langLinks}}<a href="{{this.href}}" aria-current="{{this.active}}" hreflang="{{this.code}}" lang="{{this.code}}">{{this.label}}</a>{{/each}}
+        </div>
+        <a class="btn" href="{{urls.contact}}">
+          <span>{{nav.cta}}</span>
+          <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="{{nav.menu}}">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="nav-drawer" id="nav-drawer">
+  <div class="nav-drawer-top">
+    <span class="brand-name" style="font-family:var(--font-mark)">{{site.shortName}}</span>
+    <button class="nav-drawer-close" aria-label="{{nav.close}}"></button>
+  </div>
+  <nav class="nav-drawer-links" aria-label="Mobile">
+    {{#each navItems}}<a href="{{this.href}}"{{#if this.active}} aria-current="page"{{/if}}>{{this.label}}</a>
+    {{/each}}
+  </nav>
+  <div class="nav-drawer-foot">
+    <div class="lang-switch" aria-label="{{langSwitch.label}}">
+      {{#each langLinks}}<a href="{{this.href}}" aria-current="{{this.active}}" hreflang="{{this.code}}" lang="{{this.code}}">{{this.label}}</a>{{/each}}
+    </div>
+    <a href="tel:{{site.phoneHref}}">{{site.phone}}</a>
+    <a href="mailto:{{site.email}}">{{site.email}}</a>
+  </div>
+</div>
+
+<main id="main">
+{{{content}}}
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="{{urls.home}}" aria-label="{{site.name}} — home">
+          <svg class="brand-mark" viewBox="0 0 200 220" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <g stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+              <path d="M100 210 L100 130 C100 122 96 116 92 110" />
+              <path d="M100 150 C88 140 76 136 62 138" />
+              <path d="M100 130 C112 118 126 112 140 112" />
+            </g>
+            <g fill="currentColor"><ellipse cx="52" cy="130" rx="16" ry="6" transform="rotate(-18 52 130)" /><ellipse cx="150" cy="106" rx="16" ry="6" transform="rotate(18 150 106)" /></g>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-name">de Harven</span>
+            <span class="brand-sub">Recruitment</span>
+          </span>
+        </a>
+        <p class="footer-tagline">{{footer.tagline}}</p>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">{{footer.columnsTitle.explore}}</p>
+        {{#each navItems}}<a href="{{this.href}}">{{this.label}}</a>
+        {{/each}}
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">{{footer.columnsTitle.contact}}</p>
+        <a href="tel:{{site.phoneHref}}">{{site.phone}}</a>
+        <a href="mailto:{{site.email}}">{{site.email}}</a>
+        <a href="{{site.linkedin}}" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">{{footer.newsletter.title}}</p>
+        <p style="font-size:var(--fs-small);color:var(--muted)">{{footer.newsletter.body}}</p>
+        <form class="newsletter-form" data-newsletter-form data-to-email="{{site.email}}" novalidate>
+          <label class="sr-only" for="newsletter-email">{{footer.newsletter.placeholder}}</label>
+          <input id="newsletter-email" type="email" name="email" autocomplete="email" placeholder="{{footer.newsletter.placeholder}}" required>
+          <button class="btn" type="submit">{{footer.newsletter.submit}}</button>
+        </form>
+        <label class="newsletter-consent">
+          <input type="checkbox" name="consent" required>
+          <span>{{footer.newsletter.consent}}</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {{year}} {{site.name}} — {{footer.rights}}</p>
+      <div class="footer-legal">
+        <a href="{{urls.privacy}}">{{footer.legal.privacy}}</a>
+        <a href="{{urls.terms}}">{{footer.legal.terms}}</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="{{jsHref}}" defer></script>
+</body>
+</html>

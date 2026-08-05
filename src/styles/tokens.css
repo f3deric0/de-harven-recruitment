@@ -1,0 +1,103 @@
+/* ============================================================
+   Design tokens — de Harven Recruitment
+   Palette derived from the brand's live navy/champagne identity.
+   ============================================================ */
+:root {
+  /* --- Color: core palette --- */
+  --ink:            #0B1220;
+  --navy:           #142238;
+  --navy-2:         #1B2A47;
+  --navy-3:         #22314F;
+  --champagne:      #CFC6B8;
+  --champagne-hi:   #E6DFD3;
+  --gold:           #B7A46A;
+  --ivory:          #F1EFEA;
+  --paper:          #FAF8F5;
+  --muted:          #8A93A6;
+  --muted-on-light: #6B6459;
+  --line:           rgba(207, 198, 184, 0.16);
+  --line-strong:    rgba(207, 198, 184, 0.32);
+  --line-on-light:  rgba(20, 34, 56, 0.12);
+
+  /* Semantic roles (dark = default site mood) */
+  --bg:             var(--navy);
+  --bg-raised:      var(--navy-2);
+  --bg-deep:        var(--ink);
+  --fg:             var(--champagne-hi);
+  --fg-muted:       var(--muted);
+  --accent:         var(--champagne);
+  --accent-strong:  var(--gold);
+
+  --bg-light:       var(--ivory);
+  --bg-light-2:     var(--paper);
+  --fg-on-light:    var(--navy);
+  --fg-on-light-muted: var(--muted-on-light);
+
+  --success: #7FA37A;
+  --error:   #C77B6B;
+
+  /* --- Typography --- */
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-mark:    'Forum', 'Cormorant Garamond', serif;
+  --font-body:    'Jost', 'Helvetica Neue', Arial, sans-serif;
+
+  --fs-mark:    clamp(1.05rem, 0.98rem + 0.35vw, 1.3rem);
+  --fs-h1:      clamp(2.75rem, 1.9rem + 4.3vw, 6.4rem);
+  --fs-h2:      clamp(2.1rem, 1.6rem + 2.4vw, 3.6rem);
+  --fs-h3:      clamp(1.5rem, 1.25rem + 1.2vw, 2.15rem);
+  --fs-h4:      clamp(1.2rem, 1.08rem + 0.55vw, 1.5rem);
+  --fs-lead:    clamp(1.05rem, 0.98rem + 0.35vw, 1.3rem);
+  --fs-body:    1rem;
+  --fs-small:   0.875rem;
+  --fs-eyebrow: 0.8rem;
+
+  --lh-tight: 1.06;
+  --lh-snug:  1.25;
+  --lh-body:  1.65;
+
+  --ls-eyebrow: 0.22em;
+  --ls-wide:    0.08em;
+
+  /* --- Spacing scale (8px base) --- */
+  --sp-1:  0.5rem;
+  --sp-2:  0.75rem;
+  --sp-3:  1rem;
+  --sp-4:  1.5rem;
+  --sp-5:  2rem;
+  --sp-6:  3rem;
+  --sp-7:  4.5rem;
+  --sp-8:  6.5rem;
+  --sp-9:  9rem;
+
+  --section-pad: clamp(4.5rem, 3.7rem + 3.5vw, 9rem);
+  --container-w: 1280px;
+  --container-pad: clamp(1.25rem, 0.9rem + 1.6vw, 3rem);
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 220ms;
+  --dur-mid:  480ms;
+  --dur-slow: 900ms;
+
+  /* --- Elevation / misc --- */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --shadow-lift: 0 30px 60px -20px rgba(6, 10, 20, 0.45);
+
+  --z-header: 100;
+  --z-drawer: 200;
+  --z-curtain: 300;
+  --z-cursor: 400;
+}
+
+/* Respect the OS-level reduced-motion preference at the token level too:
+   collapse durations so anything still reading these vars is inert. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 1ms;
+    --dur-mid: 1ms;
+    --dur-slow: 1ms;
+  }
+}

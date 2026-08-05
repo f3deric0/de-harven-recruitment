@@ -1,0 +1,371 @@
+{
+  "meta": { "lang": "fr", "htmlLang": "fr", "dir": "ltr", "locale": "fr_FR" },
+  "site": {
+    "name": "de Harven Recruitment",
+    "shortName": "de Harven",
+    "tagline": "Votre partenaire en acquisition de talents",
+    "domain": "de-harven-recruitment.com",
+    "phone": "+32 (0) 476 43 83 19",
+    "phoneHref": "+32476438319",
+    "email": "deharvenpierre@gmail.com",
+    "location": "Via Veneto, Oliena (NU), Italie",
+    "linkedin": "https://www.linkedin.com/in/pierre-de-harven",
+    "founded": "2024"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "methodology": "Méthodologie",
+    "industries": "Secteurs",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Démarrer un échange",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "langSwitch": { "label": "Langue" },
+  "footer": {
+    "tagline": "Une expérience de recrutement raffinée à travers l'EMEA, guidée par le symbolisme durable de l'olivier.",
+    "columnsTitle": { "explore": "Explorer", "contact": "Contact", "office": "Bureau" },
+    "newsletter": {
+      "title": "Restez informé",
+      "body": "Quelques notes occasionnelles sur les tendances du talent en EMEA — sans spam, désabonnement à tout moment.",
+      "placeholder": "Votre adresse e-mail",
+      "consent": "Oui, abonnez-moi à la newsletter.",
+      "submit": "S'abonner"
+    },
+    "rights": "Tous droits réservés.",
+    "legal": { "privacy": "Politique de confidentialité", "terms": "Conditions générales" },
+    "madeWith": "Conçu et développé pour de Harven Recruitment."
+  },
+  "cta": {
+    "eyebrow": "Parlons-en",
+    "title": "Prêt à trouver le talent qui fera avancer votre entreprise ?",
+    "body": "Que vous construisiez une équipe ou envisagiez votre prochaine étape professionnelle, la conversation commence ici.",
+    "primary": "Démarrer un échange",
+    "secondary": "Découvrir nos services"
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "de Harven Recruitment — Votre partenaire en acquisition de talents",
+        "description": "Recrutement et chasse de têtes haut de gamme à travers l'EMEA. de Harven Recruitment accompagne entreprises et candidats pour bâtir des équipes solides et durables."
+      },
+      "hero": {
+        "eyebrow": "de Harven Recruitment",
+        "titleLine1": "Votre partenaire en",
+        "titleLine2": "acquisition de talents",
+        "body": "Une expérience de recrutement raffinée et haut de gamme à travers l'EMEA — guidée par le symbolisme durable de l'olivier : excellence, résilience, longévité et une vision tournée vers l'avenir.",
+        "primaryCta": "Démarrer un échange",
+        "secondaryCta": "Découvrir nos services",
+        "scrollHint": "Faire défiler"
+      },
+      "marquee": ["Excellence", "Résilience", "Longévité", "Tournés vers l'avenir"],
+      "introEyebrow": "Bienvenue chez de Harven Recruitment",
+      "introTitle": "L'acquisition de talents, traitée comme un art",
+      "introBody": "Notre cabinet de recrutement s'attache à offrir une expérience raffinée et haut de gamme à nos clients à travers l'EMEA. La créativité dans l'élaboration de solutions sur mesure, associée à un engagement fort envers la création de valeur, est au cœur de notre identité.",
+      "stats": [
+        { "value": "11", "suffix": "+", "label": "Années en recrutement et chasse de têtes" },
+        { "value": "3", "suffix": "", "label": "Langues de travail — FR · EN · IT" },
+        { "value": "2024", "suffix": "", "label": "Fondation de de Harven Recruitment" }
+      ],
+      "servicesEyebrow": "Ce que nous faisons",
+      "servicesTitle": "Trois disciplines, une même exigence",
+      "services": [
+        {
+          "index": "01",
+          "title": "Recrutement & Sélection",
+          "excerpt": "Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins spécifiques et identifier les professionnels qui correspondent le mieux à leur culture, leurs objectifs et leur vision à long terme.",
+          "href": "services"
+        },
+        {
+          "index": "02",
+          "title": "Notre méthodologie",
+          "excerpt": "Un processus rigoureux et structuré — d'une analyse approfondie des besoins à un sourcing ciblé, une évaluation basée sur les compétences et une vérification minutieuse.",
+          "href": "methodology"
+        },
+        {
+          "index": "03",
+          "title": "Secteurs & profils",
+          "excerpt": "Une expertise véritablement transversale couvrant les profils opérationnels, techniques, managériaux et exécutifs — plutôt qu'un secteur unique et spécialisé.",
+          "href": "industries"
+        }
+      ],
+      "aboutEyebrow": "Dirigé par Pierre de Harven",
+      "aboutTitle": "Indépendant. Sélectif. Personnellement impliqué.",
+      "aboutBody": "Pierre dirige actuellement le cabinet, supervisant des missions de recrutement stratégiques dans le secteur privé ainsi que pour des organisations publiques et institutionnelles. Après plusieurs années au sein de cabinets de chasse de têtes reconnus — dont Mercuri Urval et Hudson — et la gestion de mandats clés pour Danaher Corporation (Fortune 500) dans les secteurs de la biotechnologie et des sciences de la vie, il a choisi de créer son propre cabinet pour répondre à une demande croissante d'expertise en recrutement spécialisé et de haute qualité.",
+      "aboutCta": "Lire l'histoire complète",
+      "quote": {
+        "text": "Guidées par le symbolisme durable de l'olivier, nos valeurs incarnent l'excellence, la résilience, la longévité et une vision tournée vers l'avenir.",
+        "attribution": "Pierre de Harven, Fondateur"
+      }
+    },
+
+    "services": {
+      "seo": {
+        "title": "Services — de Harven Recruitment",
+        "description": "Recrutement & sélection, solutions de talent sur mesure et une expérience d'embauche fluide et de haute qualité, du premier contact à l'intégration finale."
+      },
+      "hero": {
+        "eyebrow": "Nos services",
+        "title": "Recrutement & Sélection",
+        "body": "Notre cœur de métier est le recrutement et la sélection : nous collaborons étroitement avec nos clients pour comprendre leurs besoins spécifiques et identifier les professionnels qui correspondent le mieux à leur culture, leurs objectifs et leur vision à long terme."
+      },
+      "intro": {
+        "title": "Des solutions de talent sur mesure, du premier contact à l'intégration",
+        "body": "Nous proposons des solutions de talent sur mesure, simplifions chaque étape du processus de recrutement et garantissons une expérience fluide, efficace et de haute qualité, du premier contact jusqu'à l'intégration finale."
+      },
+      "pillarsTitle": "Comment nous travaillons avec vous",
+      "pillars": [
+        {
+          "index": "01",
+          "title": "Comprendre",
+          "body": "Nous commençons par écouter — votre culture, vos objectifs et la vision à long terme derrière chaque poste à pourvoir, au-delà de la simple description de poste."
+        },
+        {
+          "index": "02",
+          "title": "Identifier",
+          "body": "Nous identifions les professionnels réellement adaptés — sur le plan technique, culturel et stratégique — plutôt que la première correspondance disponible."
+        },
+        {
+          "index": "03",
+          "title": "Livrer",
+          "body": "Nous simplifions chaque étape du processus d'embauche de bout en bout, en maintenant une communication transparente du premier contact jusqu'à l'intégration finale."
+        }
+      ],
+      "servicesGridTitle": "Services de recrutement",
+      "servicesGrid": [
+        {
+          "title": "Recrutement permanent",
+          "body": "Recherche et sélection de bout en bout pour des postes permanents, de la définition du rôle jusqu'à l'offre et l'accompagnement à l'intégration."
+        },
+        {
+          "title": "Chasse de têtes",
+          "body": "Recherche discrète et ciblée pour des postes seniors, managériaux et exécutifs, là où les profils d'exception sont souvent rares."
+        },
+        {
+          "title": "Profils spécialisés & techniques",
+          "body": "Sourcing pour des postes techniques et spécialisés dans les fonctions opérationnelles, d'ingénierie et scientifiques."
+        },
+        {
+          "title": "Mandats transfrontaliers & EMEA",
+          "body": "Accompagnement au recrutement sur plusieurs marchés européens, fort d'une expérience concrète en Belgique, en Italie et au-delà."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Étape suivante",
+        "title": "Découvrez comment le processus fonctionne concrètement",
+        "body": "Notre page méthodologie détaille chaque étape, de l'analyse des besoins à la vérification des antécédents.",
+        "primary": "Voir notre méthodologie"
+      }
+    },
+
+    "methodology": {
+      "seo": {
+        "title": "Méthodologie — de Harven Recruitment",
+        "description": "Un processus de recrutement rigoureux et structuré : analyse approfondie des besoins, sourcing ciblé, évaluation basée sur les compétences et vérification minutieuse des antécédents."
+      },
+      "hero": {
+        "eyebrow": "Notre méthodologie",
+        "title": "Un processus rigoureux et structuré",
+        "body": "Notre méthodologie de recrutement repose sur un processus rigoureux et structuré qui débute par une analyse approfondie des besoins du client, suivie de stratégies de sourcing ciblées, d'évaluations précises basées sur les compétences et d'une vérification minutieuse des antécédents."
+      },
+      "timelineTitle": "Cinq étapes, une seule exigence",
+      "timeline": [
+        {
+          "index": "01",
+          "title": "Analyse des besoins",
+          "body": "Une analyse approfondie des besoins du client — le poste, l'équipe, la culture et les objectifs stratégiques derrière le recrutement."
+        },
+        {
+          "index": "02",
+          "title": "Stratégie de sourcing",
+          "body": "Des stratégies de sourcing ciblées, construites autour du profil, du marché et du secteur spécifiques plutôt qu'un vivier de candidats générique."
+        },
+        {
+          "index": "03",
+          "title": "Évaluation par les compétences",
+          "body": "Des critères d'évaluation précis et standardisés, appliqués de manière cohérente à chaque candidat étudié."
+        },
+        {
+          "index": "04",
+          "title": "Vérification des antécédents",
+          "body": "Une vérification minutieuse pour garantir fiabilité et adéquation avant qu'un profil ne soit présenté au client."
+        },
+        {
+          "index": "05",
+          "title": "Alignement à l'intégration",
+          "body": "Une communication transparente jusqu'à l'intégration finale, garantissant un alignement complet avec la culture et les objectifs de l'organisation."
+        }
+      ],
+      "principlesTitle": "Ce qui reste constant à chaque étape",
+      "principles": [
+        { "title": "Communication transparente", "body": "Clients et candidats sont tenus informés à chaque étape — aucune zone d'ombre." },
+        { "title": "Évaluation standardisée", "body": "Les mêmes critères rigoureux sont appliqués de manière cohérente, quel que soit le poste ou le niveau de séniorité." },
+        { "title": "Alignement culturel", "body": "Un alignement complet avec la culture et les objectifs stratégiques de l'organisation, au-delà du simple CV." },
+        { "title": "Adéquation à long terme", "body": "Nous privilégions des solutions de talent fiables et durables — pas le placement le plus rapide possible." }
+      ],
+      "cta": {
+        "eyebrow": "Voir en pratique",
+        "title": "Découvrez les secteurs et profils que nous couvrons",
+        "body": "Une expertise transversale couvrant les rôles opérationnels, techniques, managériaux et exécutifs.",
+        "primary": "Voir secteurs & profils"
+      }
+    },
+
+    "industries": {
+      "seo": {
+        "title": "Secteurs & Profils — de Harven Recruitment",
+        "description": "Une expertise intersectorielle couvrant l'acquisition de talents opérationnels, techniques, managériaux et exécutifs."
+      },
+      "hero": {
+        "eyebrow": "Secteurs & Profils",
+        "title": "Une expertise transversale, pas un secteur unique",
+        "body": "Nous sommes un cabinet de recrutement qui se distingue par une vaste expérience intersectorielle, offrant une expertise véritablement transversale plutôt que de nous limiter à un seul secteur spécialisé."
+      },
+      "intro": {
+        "title": "Une perspective large et mature — tous types de profils",
+        "body": "Cette perspective large et mature nous permet d'identifier et de sécuriser des talents de premier plan pour tous types de profils — opérationnels, techniques, managériaux et exécutifs — tout en proposant des solutions raffinées et sur mesure, parfaitement alignées avec les ambitions stratégiques de chaque client."
+      },
+      "profilesTitle": "Types de profils que nous plaçons",
+      "profiles": [
+        { "title": "Opérationnel", "body": "Des postes de première ligne et opérationnels qui assurent le bon fonctionnement quotidien de l'activité." },
+        { "title": "Technique", "body": "Des profils spécialisés et techniques dans les fonctions d'ingénierie, scientifiques et de production." },
+        { "title": "Managérial", "body": "Des chefs d'équipe et postes de middle management, à la jonction entre stratégie et exécution." },
+        { "title": "Exécutif", "body": "Des mandats seniors et exécutifs, menés avec la discrétion que le niveau de séniorité requiert." }
+      ],
+      "sectorsTitle": "Expérience sectorielle",
+      "sectorsBody": "Une expérience concrète couvrant la biotechnologie et les sciences de la vie (dont un mandat Fortune 500 pour Danaher Corporation), ainsi que des organisations du secteur privé, public et institutionnel, sur le marché belge et plus largement européen.",
+      "sectors": ["Biotechnologie & Sciences de la vie", "Secteur privé", "Organisations publiques & institutionnelles", "Industriel & Technique"],
+      "cta": {
+        "eyebrow": "À propos du fondateur",
+        "title": "Rencontrez la personne derrière chaque mandat",
+        "body": "Un cabinet de recrutement construit sur une expérience directe et concrète — pas un centre d'appels.",
+        "primary": "À propos de Pierre de Harven"
+      }
+    },
+
+    "about": {
+      "seo": {
+        "title": "À propos — Pierre de Harven | de Harven Recruitment",
+        "description": "Pierre de Harven a fondé de Harven Recruitment en 2024, après plus d'une décennie dans le recrutement et la chasse de têtes en Belgique et en Europe."
+      },
+      "hero": {
+        "eyebrow": "À propos",
+        "title": "Pierre de Harven",
+        "subtitle": "Fondateur & Partenaire en recrutement"
+      },
+      "bio": [
+        "Pierre dirige actuellement le cabinet, supervisant des missions de recrutement stratégiques dans le secteur privé ainsi que pour des organisations publiques et institutionnelles. Son travail se concentre sur l'identification et la sécurisation de talents de haut niveau dans des secteurs où les profils d'exception sont souvent rares.",
+        "Après plusieurs années au sein de cabinets de chasse de têtes reconnus — dont Mercuri Urval et Hudson — et la gestion de mandats clés pour Danaher Corporation (Fortune 500) dans les secteurs de la biotechnologie et des sciences de la vie, il a choisi de créer son propre cabinet pour répondre à une demande croissante d'expertise en recrutement spécialisé et de haute qualité.",
+        "Il est titulaire de diplômes en droit et en relations internationales de l'Université libre de Bruxelles. Parlant couramment le français, l'anglais et l'italien, il opère à travers l'Europe avec une expérience particulièrement étendue du marché belge."
+      ],
+      "valuesTitle": "L'olivier — et ce qu'il représente",
+      "valuesBody": "Guidées par le symbolisme durable de l'olivier, nos valeurs incarnent l'excellence, la résilience, la longévité et une vision tournée vers l'avenir. La créativité dans l'élaboration de solutions sur mesure, associée à un engagement fort envers la création de valeur, est au cœur de notre identité.",
+      "values": [
+        { "title": "Excellence", "body": "Une exigence raffinée et haut de gamme appliquée à chaque mandat, quelle que soit son ampleur." },
+        { "title": "Résilience", "body": "Un recrutement bien mené demande de la patience — nous ne prenons pas de raccourcis sous la pression." },
+        { "title": "Longévité", "body": "Nous privilégions des placements qui durent, pas simplement pourvoir un poste rapidement." },
+        { "title": "Tournés vers l'avenir", "body": "Anticiper l'évolution des besoins en talents de nos clients, pas seulement répondre à leur situation actuelle." }
+      ],
+      "timelineTitle": "Parcours professionnel",
+      "timeline": [
+        { "period": "2024 — Présent", "role": "Fondateur & Partenaire en recrutement", "org": "de Harven Recruitment" },
+        { "period": "2022 — 2024", "role": "Senior Recruiter (pour le compte de Cytiva / Danaher)", "org": "Kelly Outsourcing and Consulting Group" },
+        { "period": "2021 — 2022", "role": "Senior Human Resources Recruiter", "org": "Hudson Benelux" },
+        { "period": "2020 — 2021", "role": "Consultant RH — Chasse de têtes", "org": "Indépendant" },
+        { "period": "2018 — 2020", "role": "Executive Recruiter / Researcher", "org": "Mercuri Urval" }
+      ],
+      "credentialsTitle": "Formation",
+      "credentials": [
+        { "title": "Master en Relations internationales et études de sécurité nationale", "org": "Université libre de Bruxelles" },
+        { "title": "Licence en Droit", "org": "Université libre de Bruxelles" },
+        { "title": "Sciences politiques (Erasmus)", "org": "Alma Mater Studiorum — Università di Bologna" }
+      ],
+      "languagesTitle": "Langues",
+      "languages": ["Français", "Anglais", "Italien"],
+      "cta": {
+        "eyebrow": "Parlons-en",
+        "title": "Vous construisez une équipe, ou votre prochaine étape ?",
+        "body": "Contactez-nous directement — chaque échange est géré personnellement par Pierre.",
+        "primary": "Nous contacter"
+      }
+    },
+
+    "contact": {
+      "seo": {
+        "title": "Contact — de Harven Recruitment",
+        "description": "Êtes-vous une entreprise ou un candidat ? Contactez de Harven Recruitment et nous vous répondrons rapidement."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Démarrons un échange",
+        "body": "Êtes-vous une entreprise ou un candidat ? Dites-nous comment nous pouvons vous aider et nous vous répondrons rapidement."
+      },
+      "form": {
+        "typeLabel": "Je suis…",
+        "typeCompany": "Une entreprise",
+        "typeCandidate": "Un candidat",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "Téléphone (facultatif)",
+        "message": "Comment pouvons-nous vous aider ?",
+        "consent": "J'accepte que de Harven Recruitment me contacte au sujet de cette demande.",
+        "submit": "Envoyer le message",
+        "sending": "Envoi en cours…",
+        "successTitle": "Message envoyé",
+        "successBody": "Merci — Pierre vous répondra sous peu.",
+        "errorTitle": "Une erreur est survenue",
+        "errorBody": "Veuillez réessayer, ou contactez-nous directement par e-mail.",
+        "mailtoFallback": "Ouvrir dans votre messagerie à la place"
+      },
+      "directTitle": "Contact direct",
+      "office": { "title": "Bureau", "body": "Via Veneto, Oliena (NU), Italie" },
+      "reach": { "title": "Zone d'action", "body": "Actif à travers l'Europe, avec un focus sur la Belgique, l'Italie et l'ensemble de la région EMEA." }
+    },
+
+    "privacy": {
+      "seo": {
+        "title": "Politique de confidentialité — de Harven Recruitment",
+        "description": "Comment de Harven Recruitment collecte, utilise et protège les données personnelles soumises via ce site."
+      },
+      "hero": {
+        "eyebrow": "Mentions légales",
+        "title": "Politique de confidentialité",
+        "updated": "Dernière mise à jour : août 2026"
+      },
+      "intro": "Cette politique explique quelles données personnelles de Harven Recruitment collecte via ce site, pourquoi, et comment vous pouvez exercer vos droits. Elle s'applique au formulaire de contact et à l'inscription à la newsletter sur ce site.",
+      "sections": [
+        { "title": "Qui est responsable de vos données", "body": "Le responsable du traitement est Pierre de Harven, exerçant sous le nom de Harven Recruitment, basé à Oliena (NU), Italie. Pour toute question sur cette politique ou vos données, contactez deharvenpierre@gmail.com." },
+        { "title": "Ce que nous collectons", "body": "Via le formulaire de contact : prénom, nom, adresse e-mail, numéro de téléphone facultatif, votre statut d'entreprise ou de candidat, et le message que vous rédigez. Via l'inscription à la newsletter : votre adresse e-mail et votre consentement à être contacté. Nous n'utilisons aucun cookie d'analyse ou publicitaire sur ce site, et aucune donnée n'est collectée au-delà de ce que vous soumettez activement." },
+        { "title": "Pourquoi nous les traitons", "body": "Uniquement pour répondre à votre demande, évaluer une correspondance de recrutement potentielle, ou vous envoyer les mises à jour de la newsletter que vous avez demandées. Votre soumission est transmise par e-mail à Pierre de Harven ; elle n'est ni vendue, ni louée, ni partagée avec des tiers à des fins marketing." },
+        { "title": "Base légale", "body": "Le traitement repose sur votre consentement, donné lors de la soumission du formulaire ou en cochant la case de la newsletter, ainsi que sur notre intérêt légitime à répondre aux demandes professionnelles et candidatures." },
+        { "title": "Durée de conservation", "body": "Les données personnelles soumises via ce site sont conservées uniquement le temps nécessaire pour traiter votre demande ou, pour les candidats, pour vous considérer pour des opportunités pertinentes — et sont supprimées sur demande à tout moment." },
+        { "title": "Vos droits", "body": "En vertu du RGPD, vous disposez d'un droit d'accès, de rectification, de suppression et de portabilité de vos données, ainsi que du droit de retirer votre consentement ou de vous opposer au traitement à tout moment. Pour exercer l'un de ces droits, écrivez à deharvenpierre@gmail.com." },
+        { "title": "Une note sur ce document", "body": "Il s'agit d'une description factuelle, en langage clair, de la manière dont ce site spécifique traite les données — ce n'est pas un substitut à un avis juridique indépendant, et ce document sera révisé périodiquement à mesure que l'activité évolue." }
+      ]
+    },
+
+    "terms": {
+      "seo": {
+        "title": "Conditions générales — de Harven Recruitment",
+        "description": "Les conditions régissant l'utilisation du site de Harven Recruitment."
+      },
+      "hero": {
+        "eyebrow": "Mentions légales",
+        "title": "Conditions générales",
+        "updated": "Dernière mise à jour : août 2026"
+      },
+      "intro": "Ces conditions régissent votre utilisation de ce site. de Harven Recruitment propose des services de recrutement et de chasse de têtes ; ce site ne traite aucun paiement en ligne ni transaction e-commerce.",
+      "sections": [
+        { "title": "Objet de ce site", "body": "Ce site présente les services, la méthodologie et les coordonnées de de Harven Recruitment pour les entreprises et les candidats. La soumission du formulaire de contact ne crée aucune obligation contractuelle de part et d'autre — elle initie simplement un échange." },
+        { "title": "Aucune garantie de résultat", "body": "Le recrutement est un service basé sur la recherche. Soumettre une candidature ou un besoin de recrutement ne garantit ni un placement, ni un entretien, ni aucun résultat spécifique." },
+        { "title": "Contenu & propriété intellectuelle", "body": "Le texte, les images et le design de ce site appartiennent à de Harven Recruitment, sauf mention contraire, et ne peuvent être reproduits sans autorisation." },
+        { "title": "Disponibilité", "body": "Nous nous efforçons de maintenir ce site disponible et à jour, mais ne pouvons garantir un accès ininterrompu ni l'exactitude permanente de toutes les informations." },
+        { "title": "Droit applicable", "body": "Ces conditions sont régies par le droit italien. Il s'agit d'un avis général en langage clair, et non d'un substitut à un avis juridique indépendant." },
+        { "title": "Contact", "body": "Toute question relative à ces conditions peut être adressée à deharvenpierre@gmail.com." }
+      ]
+    }
+  }
+}

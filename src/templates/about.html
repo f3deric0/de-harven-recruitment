@@ -1,0 +1,90 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body" style="font-family:var(--font-display); font-size:1.4rem; color:var(--champagne)">{{page.hero.subtitle}}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container about-hero" data-reveal>
+    <div class="portrait-frame">
+      <picture>
+        <source srcset="/assets/img/pierre-portrait.webp" type="image/webp">
+        <img src="/assets/img/pierre-portrait.jpg" alt="Portrait of Pierre de Harven, founder of de Harven Recruitment" width="700" height="875" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div class="bio-copy">
+      {{#each page.bio}}<p>{{this}}</p>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.valuesTitle}}</p>
+    <p style="max-width:56rem;margin-top:var(--sp-3);color:var(--fg-on-light-muted);font-size:1.05rem">{{page.valuesBody}}</p>
+  </div>
+  <div class="container" style="margin-top:var(--sp-6)">
+    <div class="pillar-grid" data-reveal-group>
+      {{#each page.values}}
+      <div class="pillar" data-reveal>
+        <h3>{{this.title}}</h3>
+        <p>{{this.body}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <h2 data-reveal>{{page.timelineTitle}}</h2>
+    <div style="display:flex; flex-direction:column; gap:var(--sp-5)" data-reveal-group>
+      {{#each page.timeline}}
+      <div class="career-item" data-reveal>
+        <span class="period">{{this.period}}</span>
+        <div>
+          <p class="role">{{this.role}}</p>
+          <p class="org">{{this.org}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--raised">
+  <div class="container">
+    <div class="grid" data-reveal-group>
+      <div style="grid-column: span 6" data-reveal>
+        <p class="eyebrow">{{page.credentialsTitle}}</p>
+        <div class="credentials-grid" style="margin-top:var(--sp-4)">
+          {{#each page.credentials}}
+          <div class="credential-item">
+            <h4>{{this.title}}</h4>
+            <p>{{this.org}}</p>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div style="grid-column: span 6" data-reveal>
+        <p class="eyebrow">{{page.languagesTitle}}</p>
+        <div class="chip-list" style="margin-top:var(--sp-4)">
+          {{#each page.languages}}<span class="chip">{{this}}</span>{{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band" data-reveal>
+    <p class="eyebrow">{{page.cta.eyebrow}}</p>
+    <h2>{{page.cta.title}}</h2>
+    <p>{{page.cta.body}}</p>
+    <div class="hero-actions">
+      <a class="btn" href="{{urls.contact}}"><span>{{page.cta.primary}}</span></a>
+    </div>
+  </div>
+</section>

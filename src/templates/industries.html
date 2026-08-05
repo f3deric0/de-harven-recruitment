@@ -1,0 +1,59 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body">{{page.hero.body}}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container split" data-reveal>
+    <h2>{{page.intro.title}}</h2>
+    <p class="hero-body">{{page.intro.body}}</p>
+  </div>
+</section>
+
+<section class="section section--light">
+  <div class="container">
+    <p class="eyebrow" data-reveal>{{page.profilesTitle}}</p>
+  </div>
+  <div class="container" style="margin-top:var(--sp-5)">
+    <div class="profile-grid" data-reveal-group>
+      {{#each page.profiles}}
+      <div class="profile-tile" data-reveal>
+        <svg class="tile-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M20 11v18M11 20h18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        </svg>
+        <div>
+          <h3>{{this.title}}</h3>
+          <p>{{this.body}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split" data-reveal>
+    <div>
+      <p class="eyebrow">{{page.sectorsTitle}}</p>
+      <p class="hero-body">{{page.sectorsBody}}</p>
+    </div>
+    <div class="chip-list">
+      {{#each page.sectors}}<span class="chip">{{this}}</span>{{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--raised">
+  <div class="container cta-band" data-reveal>
+    <p class="eyebrow">{{page.cta.eyebrow}}</p>
+    <h2>{{page.cta.title}}</h2>
+    <p>{{page.cta.body}}</p>
+    <div class="hero-actions">
+      <a class="btn" href="{{urls.about}}"><span>{{page.cta.primary}}</span></a>
+    </div>
+  </div>
+</section>

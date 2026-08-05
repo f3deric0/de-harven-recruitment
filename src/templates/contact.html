@@ -1,0 +1,100 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body">{{page.hero.body}}</p>
+  </div>
+</section>
+
+<section class="section section--tight section--light">
+  <div class="container contact-grid">
+    <form class="contact-form" data-contact-form novalidate
+      data-to-email="{{site.email}}"
+      data-i18n-sending="{{page.form.sending}}"
+      data-i18n-success-title="{{page.form.successTitle}}"
+      data-i18n-success-body="{{page.form.successBody}}"
+      data-i18n-error-title="{{page.form.errorTitle}}"
+      data-i18n-error-body="{{page.form.errorBody}}"
+      data-i18n-mailto="{{page.form.mailtoFallback}}"
+      data-reveal>
+
+      <p class="eyebrow" style="margin-bottom:var(--sp-3)">{{page.form.typeLabel}}</p>
+      <div class="radio-group" style="margin-bottom:var(--sp-5)">
+        <label class="radio-pill">
+          <input type="radio" name="type" value="{{page.form.typeCompany}}" checked>
+          <span>{{page.form.typeCompany}}</span>
+        </label>
+        <label class="radio-pill">
+          <input type="radio" name="type" value="{{page.form.typeCandidate}}">
+          <span>{{page.form.typeCandidate}}</span>
+        </label>
+      </div>
+
+      <div class="form-grid">
+        <div class="field">
+          <label for="firstName">{{page.form.firstName}}</label>
+          <input id="firstName" name="firstName" type="text" autocomplete="given-name" required>
+          <span class="field-underline"></span>
+        </div>
+        <div class="field">
+          <label for="lastName">{{page.form.lastName}}</label>
+          <input id="lastName" name="lastName" type="text" autocomplete="family-name" required>
+          <span class="field-underline"></span>
+        </div>
+        <div class="field">
+          <label for="email">{{page.form.email}}</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <span class="field-underline"></span>
+        </div>
+        <div class="field">
+          <label for="phone">{{page.form.phone}}</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel">
+          <span class="field-underline"></span>
+        </div>
+        <div class="field field--full">
+          <label for="message">{{page.form.message}}</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="field-underline"></span>
+        </div>
+      </div>
+
+      <div class="hp-field" aria-hidden="true">
+        <label for="website">Website</label>
+        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off">
+      </div>
+
+      <label class="consent-row" style="margin-top:var(--sp-4)">
+        <input type="checkbox" name="consent" required>
+        <span>{{page.form.consent}}</span>
+      </label>
+
+      <button class="btn" style="margin-top:var(--sp-5)" type="submit">
+        <span>{{page.form.submit}}</span>
+      </button>
+
+      <div class="form-status" role="status" tabindex="-1"></div>
+    </form>
+
+    <aside class="contact-side" data-reveal>
+      <div>
+        <p class="eyebrow">{{page.directTitle}}</p>
+        <div class="contact-info-item">
+          <h4>{{nav.contact}}</h4>
+          <a href="mailto:{{site.email}}">{{site.email}}</a>
+        </div>
+        <div class="contact-info-item">
+          <h4>Phone</h4>
+          <a href="tel:{{site.phoneHref}}">{{site.phone}}</a>
+        </div>
+        <div class="contact-info-item">
+          <h4>{{page.office.title}}</h4>
+          <p style="font-size:1.05rem">{{page.office.body}}</p>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <h4>{{page.reach.title}}</h4>
+        <p style="font-family:var(--font-body); font-size:0.95rem; color:var(--fg-on-light-muted)">{{page.reach.body}}</p>
+      </div>
+    </aside>
+  </div>
+</section>

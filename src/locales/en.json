@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "lang": "en",
+    "htmlLang": "en",
+    "dir": "ltr",
+    "locale": "en_US"
+  },
+  "site": {
+    "name": "de Harven Recruitment",
+    "shortName": "de Harven",
+    "tagline": "Your partner in Talent Acquisition",
+    "domain": "de-harven-recruitment.com",
+    "phone": "+32 (0) 476 43 83 19",
+    "phoneHref": "+32476438319",
+    "email": "deharvenpierre@gmail.com",
+    "location": "Via Veneto, Oliena (NU), Italy",
+    "linkedin": "https://www.linkedin.com/in/pierre-de-harven",
+    "founded": "2024"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "methodology": "Methodology",
+    "industries": "Industries",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Start a conversation",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "langSwitch": {
+    "label": "Language"
+  },
+  "footer": {
+    "tagline": "Premium recruitment across EMEA, guided by the enduring symbolism of the olive tree.",
+    "columnsTitle": {
+      "explore": "Explore",
+      "contact": "Contact",
+      "office": "Office"
+    },
+    "newsletter": {
+      "title": "Stay informed",
+      "body": "Occasional notes on talent trends across EMEA — no spam, unsubscribe anytime.",
+      "placeholder": "Your email address",
+      "consent": "Yes, subscribe me to the newsletter.",
+      "submit": "Subscribe"
+    },
+    "rights": "All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "madeWith": "Designed and built for de Harven Recruitment."
+  },
+  "cta": {
+    "eyebrow": "Let's talk",
+    "title": "Ready to find the talent that moves your business forward?",
+    "body": "Whether you're building a team or shaping your next career move, the conversation starts here.",
+    "primary": "Start a conversation",
+    "secondary": "View our services"
+  },
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "de Harven Recruitment — Your Partner in Talent Acquisition",
+        "description": "Premium recruitment and executive search across EMEA. de Harven Recruitment partners with companies and candidates to build strong, sustainable teams."
+      },
+      "hero": {
+        "eyebrow": "de Harven Recruitment",
+        "titleLine1": "Your partner in",
+        "titleLine2": "Talent Acquisition",
+        "body": "A refined, premium recruitment experience across EMEA — guided by the enduring symbolism of the olive tree: excellence, resilience, longevity, and a forward-looking mindset.",
+        "primaryCta": "Start a conversation",
+        "secondaryCta": "Explore our services",
+        "scrollHint": "Scroll"
+      },
+      "marquee": [
+        "Excellence",
+        "Resilience",
+        "Longevity",
+        "Forward-looking"
+      ],
+      "introEyebrow": "Welcome to de Harven Recruitment",
+      "introTitle": "Talent acquisition, treated as a craft",
+      "introBody": "Our recruitment agency strives to deliver a refined and premium recruitment experience for our clients across EMEA. Creativity in shaping tailor-made solutions, along with a strong commitment to value creation, lies at the core of who we are.",
+      "stats": [
+        {
+          "value": "11",
+          "suffix": "+",
+          "label": "Years in recruitment & executive search"
+        },
+        {
+          "value": "3",
+          "suffix": "",
+          "label": "Working languages — FR · EN · IT"
+        },
+        {
+          "value": "2024",
+          "suffix": "",
+          "label": "de Harven Recruitment founded"
+        }
+      ],
+      "servicesEyebrow": "What we do",
+      "servicesTitle": "Three disciplines, one standard of care",
+      "services": [
+        {
+          "index": "01",
+          "title": "Recruitment & Selection",
+          "excerpt": "We partner closely with clients to understand their specific needs and identify the professionals who best fit their culture, objectives, and long-term vision.",
+          "href": "services"
+        },
+        {
+          "index": "02",
+          "title": "Our Methodology",
+          "excerpt": "A rigorous, structured process — from in-depth needs analysis to targeted sourcing, competency-based assessment, and thorough verification.",
+          "href": "methodology"
+        },
+        {
+          "index": "03",
+          "title": "Industries & Profiles",
+          "excerpt": "Truly transversal expertise across operational, technical, managerial, and executive profiles — rather than a single specialised sector.",
+          "href": "industries"
+        }
+      ],
+      "aboutEyebrow": "Led by Pierre de Harven",
+      "aboutTitle": "Independent. Selective. Personally involved.",
+      "aboutBody": "Pierre currently leads the firm, overseeing strategic recruitment assignments across the private sector as well as for public and institutional organisations. After spending several years within renowned executive search firms — including Mercuri Urval and Hudson — and managing key recruitment mandates for Danaher Corporation (Fortune 500) in the biotechnology and life sciences sectors, he chose to establish his own practice to meet growing market demand for specialised, high-quality recruitment expertise.",
+      "aboutCta": "Read the full story",
+      "quote": {
+        "text": "Guided by the enduring symbolism of the olive tree, our values embrace excellence, resilience, longevity, and a forward-looking mindset.",
+        "attribution": "Pierre de Harven, Founder"
+      }
+    },
+    "services": {
+      "seo": {
+        "title": "Services — de Harven Recruitment",
+        "description": "Recruitment & selection, tailored talent solutions, and a smooth, high-quality hiring experience from first contact to final onboarding."
+      },
+      "hero": {
+        "eyebrow": "Our Services",
+        "title": "Recruitment & Selection",
+        "body": "Our core business lies in recruitment and selection, where we partner closely with clients to understand their specific needs and identify the professionals who best fit their culture, objectives, and long-term vision."
+      },
+      "intro": {
+        "title": "Tailored talent solutions, from first contact to onboarding",
+        "body": "We deliver tailored talent solutions, streamline every step of the hiring process, and ensure a smooth, efficient, and high-quality experience from first contact to final onboarding."
+      },
+      "pillarsTitle": "How we work with you",
+      "pillars": [
+        {
+          "index": "01",
+          "title": "Understand",
+          "body": "We start by listening — to your culture, your objectives, and the long-term vision behind every open role, not just the job description."
+        },
+        {
+          "index": "02",
+          "title": "Identify",
+          "body": "We identify the professionals who genuinely fit — technically, culturally, and strategically — rather than the first available match."
+        },
+        {
+          "index": "03",
+          "title": "Deliver",
+          "body": "We streamline every step of the hiring process end to end, keeping communication transparent from first contact to final onboarding."
+        }
+      ],
+      "servicesGridTitle": "Recruitment services",
+      "servicesGrid": [
+        {
+          "title": "Permanent Recruitment",
+          "body": "End-to-end search and selection for permanent hires, from role definition through to offer and onboarding support."
+        },
+        {
+          "title": "Executive Search",
+          "body": "Discreet, targeted search for senior, managerial, and executive positions where exceptional profiles are often in short supply."
+        },
+        {
+          "title": "Specialised & Technical Profiles",
+          "body": "Sourcing for technical and specialist roles across operational, engineering, and scientific functions."
+        },
+        {
+          "title": "Cross-Border & EMEA Mandates",
+          "body": "Recruitment support across multiple European markets, drawing on hands-on experience in Belgium, Italy, and beyond."
+        }
+      ],
+      "cta": {
+        "eyebrow": "Next step",
+        "title": "See how the process actually works",
+        "body": "Our methodology page walks through every stage, from needs analysis to background verification.",
+        "primary": "View our methodology"
+      }
+    },
+    "methodology": {
+      "seo": {
+        "title": "Methodology — de Harven Recruitment",
+        "description": "A rigorous, structured recruitment process: in-depth needs analysis, targeted sourcing, competency-based assessment, and thorough background verification."
+      },
+      "hero": {
+        "eyebrow": "Our Methodology",
+        "title": "A rigorous, structured process",
+        "body": "Our recruitment methodology is based on a rigorous and structured process that begins with an in-depth analysis of our clients' needs, followed by targeted sourcing strategies, precise competency-based assessments, and thorough background verification."
+      },
+      "timelineTitle": "Five stages, one standard",
+      "timeline": [
+        {
+          "index": "01",
+          "title": "Needs Analysis",
+          "body": "An in-depth analysis of the client's needs — the role, the team, the culture, and the strategic objectives behind the hire."
+        },
+        {
+          "index": "02",
+          "title": "Sourcing Strategy",
+          "body": "Targeted sourcing strategies built around the specific profile, market, and industry rather than a generic candidate pool."
+        },
+        {
+          "index": "03",
+          "title": "Competency-Based Assessment",
+          "body": "Precise, standardised evaluation criteria applied consistently across every candidate under consideration."
+        },
+        {
+          "index": "04",
+          "title": "Background Verification",
+          "body": "Thorough verification to ensure reliability and alignment before any profile is presented to the client."
+        },
+        {
+          "index": "05",
+          "title": "Onboarding Alignment",
+          "body": "Transparent communication through to final onboarding, ensuring full alignment with the organisation's culture and objectives."
+        }
+      ],
+      "principlesTitle": "What stays constant at every stage",
+      "principles": [
+        {
+          "title": "Transparent communication",
+          "body": "Clients and candidates are kept informed at every stage — no black boxes."
+        },
+        {
+          "title": "Standardised evaluation",
+          "body": "The same rigorous criteria are applied consistently, regardless of role or seniority."
+        },
+        {
+          "title": "Cultural alignment",
+          "body": "Full alignment with the organisation's culture and strategic objectives, not just the CV."
+        },
+        {
+          "title": "Long-term fit",
+          "body": "We optimise for reliable, long-term talent solutions — not the fastest possible placement."
+        }
+      ],
+      "cta": {
+        "eyebrow": "See it in practice",
+        "title": "Explore the industries and profiles we cover",
+        "body": "Transversal expertise across operational, technical, managerial, and executive roles.",
+        "primary": "View industries & profiles"
+      }
+    },
+    "industries": {
+      "seo": {
+        "title": "Industries & Profiles — de Harven Recruitment",
+        "description": "Cross-industry expertise across operational, technical, managerial, and executive talent acquisition."
+      },
+      "hero": {
+        "eyebrow": "Industries & Profiles",
+        "title": "Transversal expertise, not a single sector",
+        "body": "We are a recruitment agency distinguished by extensive cross-industry experience, offering truly transversal expertise rather than limiting ourselves to a single specialised sector."
+      },
+      "intro": {
+        "title": "One broad, mature perspective — every profile type",
+        "body": "This broad and mature perspective enables us to identify and secure top-tier talent across all profile types — operational, technical, managerial, and executive — while delivering refined, tailored solutions that align seamlessly with each client's strategic ambitions."
+      },
+      "profilesTitle": "Profile types we place",
+      "profiles": [
+        {
+          "title": "Operational",
+          "body": "Frontline and operational roles that keep day-to-day activity running reliably."
+        },
+        {
+          "title": "Technical",
+          "body": "Specialist and technical profiles across engineering, scientific, and production functions."
+        },
+        {
+          "title": "Managerial",
+          "body": "Team leads and mid-management roles bridging strategy and execution."
+        },
+        {
+          "title": "Executive",
+          "body": "Senior and executive mandates, sourced with the discretion the seniority requires."
+        }
+      ],
+      "sectorsTitle": "Sector background",
+      "sectorsBody": "Hands-on experience spans biotechnology and life sciences (including a Fortune 500 mandate for Danaher Corporation), alongside private-sector, public, and institutional organisations across the Belgian and broader European market.",
+      "sectors": [
+        "Biotechnology & Life Sciences",
+        "Private Sector",
+        "Public & Institutional Organisations",
+        "Industrial & Technical"
+      ],
+      "cta": {
+        "eyebrow": "About the founder",
+        "title": "Meet the person behind every mandate",
+        "body": "A recruitment practice built on direct, hands-on experience — not a call centre.",
+        "primary": "About Pierre de Harven"
+      }
+    },
+    "about": {
+      "seo": {
+        "title": "About — Pierre de Harven | de Harven Recruitment",
+        "description": "Pierre de Harven founded de Harven Recruitment in 2024 after more than a decade in executive search and recruitment across Belgium and Europe."
+      },
+      "hero": {
+        "eyebrow": "About Us",
+        "title": "Pierre de Harven",
+        "subtitle": "Founder & Recruitment Partner"
+      },
+      "bio": [
+        "Pierre currently leads the firm, overseeing strategic recruitment assignments across the private sector as well as for public and institutional organisations. His work focuses on identifying and securing high-calibre talent in sectors where exceptional profiles are often in short supply.",
+        "After spending several years within renowned executive search firms — including Mercuri Urval and Hudson — and managing key recruitment mandates for Danaher Corporation (Fortune 500) in the biotechnology and life sciences sectors, he chose to establish his own practice to meet growing market demand for specialised, high-quality recruitment expertise.",
+        "He holds degrees in Law and International Relations from the Université libre de Bruxelles. A fluent speaker of French, English, and Italian, he operates across Europe with particularly extensive experience in the Belgian market."
+      ],
+      "valuesTitle": "The olive tree — and what it stands for",
+      "valuesBody": "Guided by the enduring symbolism of the olive tree, our values embrace excellence, resilience, longevity, and a forward-looking mindset. Creativity in shaping tailor-made solutions, along with a strong commitment to value creation, lies at the core of who we are.",
+      "values": [
+        {
+          "title": "Excellence",
+          "body": "A refined, premium standard applied to every mandate, regardless of size."
+        },
+        {
+          "title": "Resilience",
+          "body": "Recruitment done properly takes patience — we don't cut corners under pressure."
+        },
+        {
+          "title": "Longevity",
+          "body": "We optimise for placements that last, not just for filling a seat quickly."
+        },
+        {
+          "title": "Forward-looking",
+          "body": "Anticipating where a client's talent needs are heading, not just where they are today."
+        }
+      ],
+      "timelineTitle": "Career path",
+      "timeline": [
+        {
+          "period": "2024 — Present",
+          "role": "Founder & Recruitment Partner",
+          "org": "de Harven Recruitment"
+        },
+        {
+          "period": "2022 — 2024",
+          "role": "Senior Recruiter (on behalf of Cytiva / Danaher)",
+          "org": "Kelly Outsourcing and Consulting Group"
+        },
+        {
+          "period": "2021 — 2022",
+          "role": "Senior Human Resources Recruiter",
+          "org": "Hudson Benelux"
+        },
+        {
+          "period": "2020 — 2021",
+          "role": "Human Resources Consultant — Executive Search",
+          "org": "Freelance"
+        },
+        {
+          "period": "2018 — 2020",
+          "role": "Executive Recruiter / Researcher",
+          "org": "Mercuri Urval"
+        }
+      ],
+      "credentialsTitle": "Education",
+      "credentials": [
+        {
+          "title": "Master's Degree, International Relations & National Security Studies",
+          "org": "Université libre de Bruxelles"
+        },
+        {
+          "title": "Bachelor's Degree, Law",
+          "org": "Université libre de Bruxelles"
+        },
+        {
+          "title": "Political Science and Government (Erasmus)",
+          "org": "Alma Mater Studiorum — Università di Bologna"
+        }
+      ],
+      "languagesTitle": "Languages",
+      "languages": [
+        "French",
+        "English",
+        "Italian"
+      ],
+      "cta": {
+        "eyebrow": "Let's talk",
+        "title": "Building a team, or your next move?",
+        "body": "Reach out directly — every conversation is handled personally by Pierre.",
+        "primary": "Get in touch"
+      }
+    },
+    "contact": {
+      "seo": {
+        "title": "Contact — de Harven Recruitment",
+        "description": "Are you a company or a candidate? Get in touch with de Harven Recruitment and we will get back to you."
+      },
+      "hero": {
+        "eyebrow": "Contact",
+        "title": "Let's start a conversation",
+        "body": "Are you a company or a candidate? Let us know how we can help you and we will get back to you."
+      },
+      "form": {
+        "typeLabel": "I am a…",
+        "typeCompany": "Company",
+        "typeCandidate": "Candidate",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email address",
+        "phone": "Phone (optional)",
+        "message": "How can we help you?",
+        "consent": "I agree that de Harven Recruitment may contact me regarding this enquiry.",
+        "submit": "Send message",
+        "sending": "Sending…",
+        "successTitle": "Message sent",
+        "successBody": "Thank you — Pierre will get back to you shortly.",
+        "errorTitle": "Something went wrong",
+        "errorBody": "Please try again, or reach out directly by email.",
+        "mailtoFallback": "Open in your email client instead"
+      },
+      "directTitle": "Direct contact",
+      "office": {
+        "title": "Office",
+        "body": "Via Veneto, Oliena (NU), Italy"
+      },
+      "reach": {
+        "title": "Reach",
+        "body": "Operating across Europe, with a focus on Belgium, Italy, and the wider EMEA region."
+      }
+    },
+    "privacy": {
+      "seo": {
+        "title": "Privacy Policy — de Harven Recruitment",
+        "description": "How de Harven Recruitment collects, uses, and protects personal data submitted through this website."
+      },
+      "hero": {
+        "eyebrow": "Legal",
+        "title": "Privacy Policy",
+        "updated": "Last updated: August 2026"
+      },
+      "intro": "This policy explains what personal data de Harven Recruitment collects through this website, why, and how you can exercise your rights over it. It applies to the contact form and newsletter sign-up on this site.",
+      "sections": [
+        {
+          "title": "Who is responsible for your data",
+          "body": "The data controller is Pierre de Harven, operating as de Harven Recruitment, based in Oliena (NU), Italy. For any question about this policy or your data, contact deharvenpierre@gmail.com."
+        },
+        {
+          "title": "What we collect",
+          "body": "Through the contact form: first name, last name, email address, optional phone number, whether you are a company or a candidate, and the message you write. Through the newsletter sign-up: your email address and your consent to be contacted. We do not use analytics or advertising cookies on this site, and no data is collected beyond what you actively submit."
+        },
+        {
+          "title": "Why we process it",
+          "body": "Solely to respond to your enquiry, evaluate a potential recruitment match, or send the newsletter updates you asked for. Your submission is delivered by email to Pierre de Harven; it is not sold, rented, or shared with third parties for marketing purposes."
+        },
+        {
+          "title": "Legal basis",
+          "body": "Processing is based on your consent, given when you submit the form or tick the newsletter checkbox, and on our legitimate interest in responding to business and candidate enquiries."
+        },
+        {
+          "title": "How long we keep it",
+          "body": "Personal data submitted through this site is kept only as long as necessary to handle your enquiry or, for candidates, to consider you for relevant opportunities — and is deleted on request at any time."
+        },
+        {
+          "title": "Your rights",
+          "body": "Under the GDPR, you have the right to access, correct, delete, or export your data, and to withdraw consent or object to processing at any time. To exercise any of these rights, email deharvenpierre@gmail.com."
+        },
+        {
+          "title": "A note on this document",
+          "body": "This is a plain-language, factual description of how this specific website handles data — it is not a substitute for independent legal advice, and will be reviewed periodically as the business evolves."
+        }
+      ]
+    },
+    "terms": {
+      "seo": {
+        "title": "Terms & Conditions — de Harven Recruitment",
+        "description": "The terms governing the use of the de Harven Recruitment website."
+      },
+      "hero": {
+        "eyebrow": "Legal",
+        "title": "Terms & Conditions",
+        "updated": "Last updated: August 2026"
+      },
+      "intro": "These terms govern your use of this website. de Harven Recruitment provides recruitment and executive search services; this site does not process any online payment or e-commerce transaction.",
+      "sections": [
+        {
+          "title": "Purpose of this site",
+          "body": "This website presents de Harven Recruitment's services, methodology, and contact details for companies and candidates. Submitting the contact form does not create any contractual obligation on either side — it simply starts a conversation."
+        },
+        {
+          "title": "No guarantee of outcome",
+          "body": "Recruitment is a search-based service. Submitting a candidacy or a hiring brief does not guarantee a placement, an interview, or any specific outcome."
+        },
+        {
+          "title": "Content & intellectual property",
+          "body": "The text, imagery, and design of this site belong to de Harven Recruitment unless otherwise credited, and may not be reproduced without permission."
+        },
+        {
+          "title": "Availability",
+          "body": "We aim to keep this site available and accurate but cannot guarantee uninterrupted access or that all information is error-free at all times."
+        },
+        {
+          "title": "Governing law",
+          "body": "These terms are governed by Italian law. This is a general, plain-language notice rather than a substitute for independent legal advice."
+        },
+        {
+          "title": "Contact",
+          "body": "Questions about these terms can be sent to deharvenpierre@gmail.com."
+        }
+      ]
+    }
+  }
+}

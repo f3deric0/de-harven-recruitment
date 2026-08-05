@@ -1,0 +1,19 @@
+<section class="page-hero">
+  <div class="container" data-reveal>
+    <p class="eyebrow">{{page.hero.eyebrow}}</p>
+    <h1>{{page.hero.title}}</h1>
+    <p class="page-hero-body">{{page.intro}}</p>
+    <p class="badge" style="margin-top:var(--sp-4)">{{page.hero.updated}}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container" style="max-width:52rem" data-reveal-group>
+    {{#each page.sections}}
+    <div style="margin-bottom:var(--sp-6)" data-reveal>
+      <h3 style="margin-bottom:var(--sp-2)">{{this.title}}</h3>
+      <p style="color:var(--fg-muted)">{{this.body}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
