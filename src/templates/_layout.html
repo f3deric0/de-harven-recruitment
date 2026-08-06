@@ -9,8 +9,8 @@
 {{#each alternates}}<link rel="alternate" hreflang="{{this.hreflang}}" href="{{this.url}}">
 {{/each}}
 <meta name="theme-color" content="#142238">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{site.name}}">
@@ -53,72 +53,14 @@ if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').m
 <a class="skip-link" href="#main">Skip to content</a>
 
 <div class="preloader" aria-hidden="true">
-  <svg class="preloader-mark" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g stroke="currentColor" stroke-linecap="round" fill="none">
-    <path d="M100 216 C99 198 101 178 99 158 C99 148 100 138 100 126" stroke-width="11"/>
-    <path d="M99 206 C86 213 74 217 60 216" stroke-width="5"/>
-    <path d="M101 206 C114 213 126 217 140 216" stroke-width="5"/>
-  </g>
-  <g class="leaves" fill="currentColor">
-    <ellipse cx="84.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(-150.0 84.0 145.7)"/>
-    <ellipse cx="68.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(-100.0 68.5 123.6)"/>
-    <ellipse cx="75.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(-50.0 75.5 97.4)"/>
-    <ellipse cx="100.0" cy="86.0" rx="20.0" ry="30.0" transform="rotate(0.0 100.0 86.0)"/>
-    <ellipse cx="124.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(50.0 124.5 97.4)"/>
-    <ellipse cx="131.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(100.0 131.5 123.6)"/>
-    <ellipse cx="116.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(150.0 116.0 145.7)"/>
-    <ellipse cx="62.1" cy="172.1" rx="22.0" ry="38.0" transform="rotate(-145.0 62.1 172.1)"/>
-    <ellipse cx="34.4" cy="125.7" rx="22.0" ry="38.0" transform="rotate(-96.7 34.4 125.7)"/>
-    <ellipse cx="50.7" cy="74.1" rx="22.0" ry="38.0" transform="rotate(-48.3 50.7 74.1)"/>
-    <ellipse cx="100.0" cy="52.0" rx="22.0" ry="38.0" transform="rotate(0.0 100.0 52.0)"/>
-    <ellipse cx="149.3" cy="74.1" rx="22.0" ry="38.0" transform="rotate(48.3 149.3 74.1)"/>
-    <ellipse cx="165.6" cy="125.7" rx="22.0" ry="38.0" transform="rotate(96.7 165.6 125.7)"/>
-    <ellipse cx="137.9" cy="172.1" rx="22.0" ry="38.0" transform="rotate(145.0 137.9 172.1)"/>
-    <ellipse cx="97.2" cy="133.8" rx="15.0" ry="22.0" transform="rotate(-170.0 97.2 133.8)"/>
-    <ellipse cx="84.1" cy="116.6" rx="15.0" ry="22.0" transform="rotate(-85.0 84.1 116.6)"/>
-    <ellipse cx="100.0" cy="102.0" rx="15.0" ry="22.0" transform="rotate(0.0 100.0 102.0)"/>
-    <ellipse cx="115.9" cy="116.6" rx="15.0" ry="22.0" transform="rotate(85.0 115.9 116.6)"/>
-    <ellipse cx="102.8" cy="133.8" rx="15.0" ry="22.0" transform="rotate(170.0 102.8 133.8)"/>
-  </g>
-  </svg>
+  <img class="preloader-mark" src="/assets/logo/tree-transparent.webp" alt="" width="522" height="808">
 </div>
 <div class="curtain" aria-hidden="true"></div>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="brand" href="{{urls.home}}" aria-label="{{site.name}} — home">
-      <svg class="brand-mark" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <g stroke="currentColor" stroke-linecap="round" fill="none">
-    <path d="M100 216 C99 198 101 178 99 158 C99 148 100 138 100 126" stroke-width="11"/>
-    <path d="M99 206 C86 213 74 217 60 216" stroke-width="5"/>
-    <path d="M101 206 C114 213 126 217 140 216" stroke-width="5"/>
-  </g>
-  <g fill="currentColor">
-    <ellipse cx="84.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(-150.0 84.0 145.7)"/>
-    <ellipse cx="68.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(-100.0 68.5 123.6)"/>
-    <ellipse cx="75.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(-50.0 75.5 97.4)"/>
-    <ellipse cx="100.0" cy="86.0" rx="20.0" ry="30.0" transform="rotate(0.0 100.0 86.0)"/>
-    <ellipse cx="124.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(50.0 124.5 97.4)"/>
-    <ellipse cx="131.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(100.0 131.5 123.6)"/>
-    <ellipse cx="116.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(150.0 116.0 145.7)"/>
-    <ellipse cx="62.1" cy="172.1" rx="22.0" ry="38.0" transform="rotate(-145.0 62.1 172.1)"/>
-    <ellipse cx="34.4" cy="125.7" rx="22.0" ry="38.0" transform="rotate(-96.7 34.4 125.7)"/>
-    <ellipse cx="50.7" cy="74.1" rx="22.0" ry="38.0" transform="rotate(-48.3 50.7 74.1)"/>
-    <ellipse cx="100.0" cy="52.0" rx="22.0" ry="38.0" transform="rotate(0.0 100.0 52.0)"/>
-    <ellipse cx="149.3" cy="74.1" rx="22.0" ry="38.0" transform="rotate(48.3 149.3 74.1)"/>
-    <ellipse cx="165.6" cy="125.7" rx="22.0" ry="38.0" transform="rotate(96.7 165.6 125.7)"/>
-    <ellipse cx="137.9" cy="172.1" rx="22.0" ry="38.0" transform="rotate(145.0 137.9 172.1)"/>
-    <ellipse cx="97.2" cy="133.8" rx="15.0" ry="22.0" transform="rotate(-170.0 97.2 133.8)"/>
-    <ellipse cx="84.1" cy="116.6" rx="15.0" ry="22.0" transform="rotate(-85.0 84.1 116.6)"/>
-    <ellipse cx="100.0" cy="102.0" rx="15.0" ry="22.0" transform="rotate(0.0 100.0 102.0)"/>
-    <ellipse cx="115.9" cy="116.6" rx="15.0" ry="22.0" transform="rotate(85.0 115.9 116.6)"/>
-    <ellipse cx="102.8" cy="133.8" rx="15.0" ry="22.0" transform="rotate(170.0 102.8 133.8)"/>
-  </g>
-          </svg>
-      <span class="brand-text">
-        <span class="brand-name">de Harven</span>
-        <span class="brand-sub">Recruitment</span>
-      </span>
+    <a class="brand brand--image" href="{{urls.home}}" aria-label="{{site.name}} — home">
+      <img src="/assets/logo/logo-lockup.webp" alt="de Harven Recruitment" width="200" height="67" class="brand-lockup">
     </a>
 
     <nav class="nav-primary" aria-label="Primary">
@@ -168,39 +110,8 @@ if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').m
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="brand" href="{{urls.home}}" aria-label="{{site.name}} — home">
-          <svg class="brand-mark" viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <g stroke="currentColor" stroke-linecap="round" fill="none">
-    <path d="M100 216 C99 198 101 178 99 158 C99 148 100 138 100 126" stroke-width="11"/>
-    <path d="M99 206 C86 213 74 217 60 216" stroke-width="5"/>
-    <path d="M101 206 C114 213 126 217 140 216" stroke-width="5"/>
-  </g>
-  <g fill="currentColor">
-    <ellipse cx="84.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(-150.0 84.0 145.7)"/>
-    <ellipse cx="68.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(-100.0 68.5 123.6)"/>
-    <ellipse cx="75.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(-50.0 75.5 97.4)"/>
-    <ellipse cx="100.0" cy="86.0" rx="20.0" ry="30.0" transform="rotate(0.0 100.0 86.0)"/>
-    <ellipse cx="124.5" cy="97.4" rx="20.0" ry="30.0" transform="rotate(50.0 124.5 97.4)"/>
-    <ellipse cx="131.5" cy="123.6" rx="20.0" ry="30.0" transform="rotate(100.0 131.5 123.6)"/>
-    <ellipse cx="116.0" cy="145.7" rx="20.0" ry="30.0" transform="rotate(150.0 116.0 145.7)"/>
-    <ellipse cx="62.1" cy="172.1" rx="22.0" ry="38.0" transform="rotate(-145.0 62.1 172.1)"/>
-    <ellipse cx="34.4" cy="125.7" rx="22.0" ry="38.0" transform="rotate(-96.7 34.4 125.7)"/>
-    <ellipse cx="50.7" cy="74.1" rx="22.0" ry="38.0" transform="rotate(-48.3 50.7 74.1)"/>
-    <ellipse cx="100.0" cy="52.0" rx="22.0" ry="38.0" transform="rotate(0.0 100.0 52.0)"/>
-    <ellipse cx="149.3" cy="74.1" rx="22.0" ry="38.0" transform="rotate(48.3 149.3 74.1)"/>
-    <ellipse cx="165.6" cy="125.7" rx="22.0" ry="38.0" transform="rotate(96.7 165.6 125.7)"/>
-    <ellipse cx="137.9" cy="172.1" rx="22.0" ry="38.0" transform="rotate(145.0 137.9 172.1)"/>
-    <ellipse cx="97.2" cy="133.8" rx="15.0" ry="22.0" transform="rotate(-170.0 97.2 133.8)"/>
-    <ellipse cx="84.1" cy="116.6" rx="15.0" ry="22.0" transform="rotate(-85.0 84.1 116.6)"/>
-    <ellipse cx="100.0" cy="102.0" rx="15.0" ry="22.0" transform="rotate(0.0 100.0 102.0)"/>
-    <ellipse cx="115.9" cy="116.6" rx="15.0" ry="22.0" transform="rotate(85.0 115.9 116.6)"/>
-    <ellipse cx="102.8" cy="133.8" rx="15.0" ry="22.0" transform="rotate(170.0 102.8 133.8)"/>
-  </g>
-          </svg>
-          <span class="brand-text">
-            <span class="brand-name">de Harven</span>
-            <span class="brand-sub">Recruitment</span>
-          </span>
+        <a class="brand brand--image" href="{{urls.home}}" aria-label="{{site.name}} — home">
+          <img src="/assets/logo/logo-lockup.webp" alt="de Harven Recruitment" width="200" height="67" class="brand-lockup">
         </a>
         <p class="footer-tagline">{{footer.tagline}}</p>
       </div>

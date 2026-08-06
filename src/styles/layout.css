@@ -70,10 +70,8 @@
   font-family: var(--font-mark);
   letter-spacing: var(--ls-wide);
 }
-.brand-mark { width: 34px; height: 41px; color: var(--champagne); flex-shrink: 0; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.05; }
-.brand-name { font-size: 1.05rem; color: var(--champagne-hi); }
-.brand-sub { font-size: 0.6rem; letter-spacing: var(--ls-eyebrow); color: var(--muted); text-transform: uppercase; font-family: var(--font-body); }
+.brand-lockup { height: 34px; width: auto; display: block; }
+@media (max-width: 900px) { .brand-lockup { height: 30px; } }
 
 .nav-primary { display: flex; align-items: center; gap: var(--sp-6); }
 .nav-links { display: flex; gap: var(--sp-5); }
