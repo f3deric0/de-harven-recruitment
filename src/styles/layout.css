@@ -70,7 +70,7 @@
   font-family: var(--font-mark);
   letter-spacing: var(--ls-wide);
 }
-.brand-mark { width: 36px; height: 40px; color: var(--champagne); flex-shrink: 0; }
+.brand-mark { width: 34px; height: 41px; color: var(--champagne); flex-shrink: 0; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
 .brand-name { font-size: 1.05rem; color: var(--champagne-hi); }
 .brand-sub { font-size: 0.6rem; letter-spacing: var(--ls-eyebrow); color: var(--muted); text-transform: uppercase; font-family: var(--font-body); }
@@ -133,6 +133,8 @@
   display: flex;
   flex-direction: column;
   padding: var(--sp-6) var(--container-pad);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   transform: translateY(-100%);
   transition: transform var(--dur-mid) var(--ease-in-out);
 }
